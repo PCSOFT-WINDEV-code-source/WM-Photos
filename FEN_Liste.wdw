@@ -1,0 +1,349 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Liste
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Liste
+ identifier : 0x285aa117137a055f
+ internal_properties : CAAAAAgAAAAaj0tJfRNph0MsKWY2SEwgITJJMLwkqVs2lPC88FuQG3e3XaB3T0NCdl2XNuzAwHd5Q0vAmURUfRAOys8kehF5MmHZFIJQSMVNLketBMC4VWs0l4CYvZvx9UHiD4dqKcvoDH6EhY8TQBqHY6g/fLY79CMelr4QdrFhepryJIeJoe+gY5kCIpym543h6UhSF20WtXIF896jKDccnS6gRo2LMDbkiSknJC4tuCwIpKUYPu1I+kbMDVNYCKTKJz+vnsFOaFQJEl2OQVP1pQh6ZXu+/ArAfuuhKUS8xKDPdqbWxRlxUSOW4X8yfKDtxPFxFGOzP+A+rIIe+n7yNERQY4/6AuJXmdiBbR6CC1ztr6uJUwuUtPrlrF0t9A14FVsWAAzQfG09R+lnwE/QrLtzCk2buvhSAIH1oKjEgN0SfWvcVFWE/kcwWFcPXDgA8/rPBgJCad6ZQP24J2cQK47TBDasEJdeUwnrGToCgqN+CyX2i1Ef0guyWRUAo+HAQdSUcL77AXnFL2PHCsoMhHRnBPryaPAoYjdWXiEMbn4Y6Mfr1iC0odBTwzrhQwHUmdClBkT8z6+eXW8x4r/lzNm0XW0cLxSdZnLUckOu77oX+K5H9JL29mp5azyoO22ix0ECqGwxZd/kaRvRrkacVxtS5Z4IDEWcqLOewALtjzp4ZCpuWEXpqQhBvC6JdZdiWFtKiWKBbcjstvq2ad67HPf3XgkUsKMo1/6Fz7KiKW6Qi2vMaHXrJPuTY1QD6JXsqzTZYfcW
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : ZR_Photos
+    identifier : 0x285aa26800aa2a16
+    internal_properties : CAAAAAgAAAAHtwQepBIRVNuYEAHquhGxwUE3SC4y6PubdJLlarD8Z5J+VmrwVR5x1HjGQTIIxC7EH+t96Ow1ed09yV2nNxIyWUzgjL9Nh2Im6Ul5tFjTZitUR+EflXlS8NpE28gkwO4KB5iy9fI/nnWLspWqBXohA8NfmAiFm859tfY0iwuwmLgzixhLdEs8i8bk7BSfvTEoHK/RAv/Nqjfj1y0NN6A5tr6PAzbmQpj0AcUXd9yKZCP8Y5Sn8DWoCMESobDz7vAjjVbo7JKmYqvWPDq1j4XVzggOvc5R7vzD4VXWGme+8PZJ+iT+OUj3sdgUOU+ImNCybRp5pSp0r075pM2sGzwNbxRcYMusPlcZUUceeikLUQzpuHnL72y1TWiIQgho/slP7WFhRdlvmO/GABAuKijt8bYrNM8UhBAB+sSPgdWM6+m2et2kONZW0Tc/R3/svdnShvCCk776VbGVirYCYuTyZ7rHO2D+De/KcAuT3PzaAV7s8bZTpUFh+mD+pSkeegpYpAYn+1PG7o2DQnFzHoTP8pmCAAZpYVc8u2DRHh6b28dkY9pAjj1DCjkNWyao2+cxpkLYMGBRkgMaRE+uFQSAjG+cs4Rx/M1BMmmlQCNe1OKNMa7N76jdGOebSj0Et04WRv6mwKOHJm5R7HV/QiLrxjwqRlczHWs8tqo22LrqiWObQP1ieGQrziixXu3q5PYsesCJB8mEoW3jJH2XoMaLdmC9bkoV6N5ouyuFaC8DsoPZtqO3U4Av/l0cQOhShtrnSglIkEpXx4GeCATBadCh4+vFDrzL7WvT9c/MQfEbC3luFwvoj/AqU9vStuBIGIX2tjKfMzImKuqTSSpFtgkuUZnN1Z+Knh7qgAbjvBeVpwMUhqnw4Zo35i3h4xDW9BQSwvoXWNHLO65Bug0jjX0B2caFvLiTxDdKvkaQqZYNy55yWB2qyvEaawc3DmdMdJ1SqqYfnsAu7ymjAwkFEMDEwRPKE30nltpTCbVf5Nw7oGa/0kxnlV6bcM+VVVkD6q0SUi0c07Z1YRhXCAdkQBJUOgX/+Vl0vSh56+mIghoHRUlKxZU74Q+Ctwql+YDvPUNZjVN7v2doPidXQejDCpJ4s1ekBJv/s6SNBgFoeBTwqCObo4zi21zwwPaFpAlJW3dHhZilFSYPaCUXlwRqwjm6MM+ogup4XEWWrLPObyKG+1enGukmoZ271Zth64MhRNWmkIs+skcP7wcOncUwLIt5h94lPatu25vDxsGSb9WXxGa69nZhsRwcBgFkFg6RZijKBPdRd4pHvWt45HTl03b4FsUon2ev4PRVPz/kUHIg2WMXWgXOkZaiL3Mbi69xqQ5jWNxqPAxwa5zVvN63dbNxhrhE1I3d0eQIBfu+ALd7/tCdsBkIJmNj+Gm3Vb7lbEkw8ARX4SJeWnHgd0dj7tyDPegQ70ktpK/kju4aTZXAoMIRgfrDvk8amOS0mjjSKxUe7AUvxvKjtBqYmnAUseoa1OQk/e9cNeuhPl44OElfhYLTwDT6tkd0GVYG1cqFIuGve+ZuFc+ssoAdXoiXt4svMJcQqsjEnISRC372YrNHONAXS+ijIOMlYeUtKifyQdPMo8qN+BLzdHwQlahPQmAkjSfIWdt9e6z4of3fp4JuuHblAA046K+8kEGhFwtXGLkItPC4p1ql1GgUMSJHOOu131E620KseX7Fpzq6dBHvfGhsv1SQgv9awvIwthsgw+o9Vc5lzrqQVzmzUtXfZJ+HGYfcAQajeng1bRxm7hQoJjfntSRbGYkEYB6fwCiM8ku9nCu0zOfqflC1uUUIMlEsDDh9tSWVi4nFbpgwEaoiWCNvq9pVzGZk/byZxfMGm4KX/+bVnzUsTUPf3jjcbJS+o2Z42NO20mr2imjv0TXbZ+RY8/MCjFDjDgYx/PbMJ1fwgh++S/sSsVlY3/XCoNDkoszHH3YTxvF8LnJr/QKcdVGTMcVcDfq4RydN7k4sYDE6fpp1Nrk3CYNLLKUEQi0kw6Ram7jMOXyJMoY3zrQ0KvHxMiFAJqLvPemZBRQu1MFG1WoxhQbNg778KwBQkmEeV/Jyq94yeRHBT4PoKOnEe4e357FNtjBdHsb7i3UTDO0VZsgjqpCdBhKbRIF9OQviODV3QbXdaLEdk5QRAbv190LK09Q26sotdyoSgLyk2w9dW+CUR2w7d7m5dsy6t/CIVXkv7qfh9PikExsfSECxD+JStff19td5DzUAiz20mtcsqXg+jG2oIznjpJUwhO+58VmGvQsOHPhrYi5/zHP2Qw8ofvpOG7pyESbCkBCyyiBJU9DhCTdUM+N5oUYexGI9sVpfBW6nJ1Fi3mLqkfd/NJXjKiW2BejN1XSHij1v0geCQF0cZaOfjl3eure4xD7AbBGQWe8qfkEgc/C7E0HM0ETVKK8gdYXTZJRG+JIjKX/gTp2B4J+lT/2oGsrERG1rbUQploRVeOPZ6SfNS0A5yKyTWixgU+IZqTt+qZGmm1hEidkeZz6LDWq1ywZdaZ8f4ExHQ79nQDxusbfawYevQyAxf0VbMBUbhPwAWIRPjIaMFpXfh5gXpwV4FEQmSjNxko0VRS3Kxk62nL4CkxVjjQdsTE+RTiIKxjM0Ov8L8stsBSy2oOGLfb9GfJO5X76NvCN9pdbVjjoexAyG6DA+5lyw2WmoHd44UGTMW7kRwtsEfeHX8A8Ow2oW6ciZZfxJDeb9Dqwcb+DBU0ccLMN/hAeIyvkTB1VhltonJR8DcWLinInJuMFAKof4w0Uk37MqSrkV14JFLbbupNIMGZk9lhzBz/RyLjBkw+Svz+WTpCxYT3PmdZrWKqWHELmt65rse4BYoqbBMDE6RP/dVimg1imXkueybmbsTL7eKwAtvGA22TWSsQ+KeRzit7N8wsufESaRlwhnHcXNCs1WVrO+/gcVpVmfjB6xwwvQpS18xaXoMwLFICmVnxdad6vV8MJVh6UWGGuxWDP/qbzWxzyrjs9PhCAA/OF50+djIlSCKjI6r7MDxDX0w9dZ4cRfWBFmcFg3jdTx3/RMgd10MSvmmEFywqHTwmKVWH8CzY8fMA1bTGpYH1uc
+    properties :
+     x : -2
+     width : 324
+     height : 200
+    controls :
+     -
+       name : IMG_Photo
+       identifier : 0x285aa5aa010de491
+       internal_properties : CAAAAAgAAAAdQxWdZQr8LMhswBW1a2Dv0jghEiy+5q0XSVxaRSZPyHwzSqrRnZbb0qwkc3xEx6YjmiaTOkvrmXqH4Rr59pdwW4Dz25pQKJ/tQ0UYYjXaaAD3IJueoRMuEpmpQWMLIkLE5AgPIA52sbjLvxtoTB8disxZ7SRNn2pOTUuOodqd4Zdz9Edj8odqvGCej5juUt0BOeN/b4eRoLVBTTP+ueCEtkPfFpNn+TaMv+2j4zipQ7vJx1jnhc66xPe05sfqUTdpmMO/d2oIxMsui4ZCnRQ7Iia5H0TXm/if5ULGysZJYD+jpYFNUXedE7DZkW7plvpPnWRdJyO4BoVm1Jup/DNohPRsCux1z5bLO3TaomkoDCSHvI36ao6oPjZEv9KwL1wfyfHdb6UoGMnoErTzVVl1Tu/ECAG42xVeyocuNMPtg8jDj75Cp3KmjJiMw27rA7muzcksgvDkZkTPxoxoUAZSbelbDKi8tqhSSnQiNv3Pu4LPddVfo9IwJNLnvPAvQyQhUmQm09TT8uAhKJ1Y07UZ0O4lEhlsm/XoK5ePnjl5/+a0CTUO7v1TR4rWteo9bPTA8/Xq/abf1u4NPrKHdO5nX7ejuW34r23rifbkSnAl9VhvR04Ec3hVIqPeVrVA2uJRPDTTCEpLJ9TvXKmLNj1tRjvBa7zZ8CfOxG+cixgZTllcPWxZCmYtSKeXyg2nnu6qVB4zTY9rtBbpwcHiLt/xVctdiduW7vyLdzsEvZuvUCQRuEVXieJD656DStW/NcU6skNg2vE=
+       properties :
+        x : 2
+        y : 2
+        width : 76
+        height : 96
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_IDPhoto
+       identifier : 0x285aa2a600f31ec6
+       internal_properties : CAAAAAgAAACfuDtcDAKPPzvNKjVZviQzrpqBgKqXzq6eC7nV+CXt2eeUm6gkfKsdwjeJGw0nqgfPvkV1cjRgLPweG5Ua49XB63x+d/KWHFlnMIp81aoKjVBquv0JcQTa+wlUJqvHKcg1CTeftcID
+       type : 3
+       content :
+        identifier : 0x2543daa30734b096
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Photo
+       identifier : 0x285aa2a600f51ec6
+       internal_properties : CAAAAAgAAACVxrepfZ4waDdrPiCDm/7gW3sp6AdarvyTsXsSLspzNO2GnKg3S4+J7A1hXXjLzbxa10/c5NDLGEkQqbnXoCOToFixa68aRkqnvyr1I2eKdp6oGhL5kYu1wWFrP+5vDccx909rhb+KLvzyOBm1Jlk8MNcNqaG5TzoE5hDXxc5iKIWD
+       type : 3
+       content :
+        identifier : 0x2543daa30736b096
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         // Ouverture de la photo
+         OuvreFenêtreMobile(FEN_Photo,ZR_Photos[ZR_Photos].ATT_IDPhoto)
+        type : 33
+      -
+        code : |1+
+         
+         
+         // Rafraîchit la liste des photos
+         RafraichitListe()
+        type : 230
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_Nouveau
+    identifier : 0x285ab32f041db5a0
+    internal_properties : CAAAAAgAAABpxuKf1VONsarI6TgZjDucwgps9xs9XpHpvRTABjrhLHYt66UaK74Pu6K4MvayRCdtI2QfAKik0S0GnJYHSSzATMEObg2L44uu0qMQJJr3ilU0QMBtZGstF0pJIBJ4JV0Kr8Bf3I8uPH2j4RvTjx+1MnKF+CEzCjl5R0exE7GTLmN5q1RrU5cS2Wmos0PhuJNYeNngw+SMoMA5TPzzMQE4Fo9iT99Dju3BddfU4qOroXQ/wGgLsYLDFsDWOG0SQUQS0yVf7v8VpkV4d15OBrEJcO2fk0idKrKJEbbv2FovADzfsB6SRkmT0djPU/sBD0/7Uprh/Ah8KM+qCN+Y6h0LNnznm0UHOpq56kgmH4hVBK/3Rv/+FxSN1er/Dpr/3//XIfqOcWLI7q2RvMZy5uGugpDCZ0+lXQH7MG+3NnMTc/f/oAda9AzsdJQGBpfWaC8oJCW4JLahTOqwLcaZ6xYI4QpcHuUqcDaWdJ4N9os93+Y6iqXhP7vFybxbnq3AnQFMVG+S28nkRr9Ru0/BqClaslC2NlFGFIeT0ZHCqqba20wcyo3R2/QdCxBaWROW+2whBp9iDnP6aef5Ww6t0IqYmAJ13cR41tk0sBArHp8RaN1axgsfcdq73UcCgAP9WpGMiTHHE7WNXAI+plxDD4JUeeQS0ZZ2m6Vv1zqVN5SG7FNlGND/WrPVUMc9GYzynGiUs5x3vMU1VDenll9/buwWE6eT44rZZARD5Zu5kOGv54dJ8/qg3kJVO5+9vimLBsw3f4p40q4QJyeVCspjEEtmRXjqsWHJbnXCqeImpNxVd2dnBYhF1K+J30EIOthJwnai1qfrp8lJGfGfPXvG0/9Z2ObUl9qyu0IylnkxP400DmIGSvkexgAi3f8peMIs/hzN
+    properties :
+     x : 132
+     y : 184
+     width : 56
+     height : 56
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         NouvellePhoto()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_SansNom1
+    identifier : 0x285ab4cb042bfcce
+    internal_properties : CAAAAAgAAABUv42Z3DSAThtKenYUDroPM6LII3OOCX42J4mPeAIPwVpDB7dQYGIILllpVwpd4IL5mQEolLDIyE/abvT+0Ih0urbcONJM1misDK4uCqOplQovinlKQ3MjBbWWNlQa23k1Rlh5x8hY3U8lZlkvOorJLY3BN9Sy1Sy6ftLAfED7cfNRlYwPFFkbjXiq9Lt8Ko0ih1X78RCNV1lnQMs6yaEC9FASrDw8wSOq3ga++Ul0haJXDlxANmef7a6ZFNKEEgYNw4vg60tzuRln7eblLpk5GAvcebD7VyjtLHdBHdI1GgitWSTXqioocVWW5F+rJYFc8z3SJqbg8875qoHYh1Fgh/VBkENCDrMD4cI/7PPjNwjY465b94g9SwJ9kTDKGWg3EnYOOk4IfbVsX8RE0nujtE7rByZ22E2LanMmOSdTTj/Or473MSX23A3UR1CdEpk+xMWabZwiYbdk1p0wjRrTWq51Doqn2khs0K7AE01Vd3SIc7G5eZGGle8YzT3U2lprP4n8YPlJzDmWMxe51M4UbjyZjZA/OXf+eIhsOXPs2r+BU056Ys0UyB6f47P8LdyPnTbJdeV4WQSVS/vUlSnTcltUwXlUoW7jQw2PLu1zl1Yw+ffkCArU67uyiTzLwROduoppIrxN1pKk/z47qxA7Se81Mh9wUDfItYslzAK5V2fE/PgEJo0NWzEkRi5yA55UtzgOJUDDIhGEREqQMGggSjf/F5Poy08lFaLzsn6xivI0W8nB1YwllvGfKHCvQ9BCnNaEyfKQbY5qvoRqMf1hsA==
+    properties :
+     y : 200
+     width : 320
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_Miniature
+    identifier : 0x285ac07d0509ac0e
+    internal_properties : CAAAAAgAAABzd5Ztt5rN7UJeHcmVn/fci/RtHE4geXWvI85zirU/+GOyU5miciP3Qf+UZDrQG/J6N8/Ez8+i38AfONu6Yq3bu5gNTsBUqUKilAyB4IQUXPcBG7g3dzseCnBDUPZCdLMK67Zwi5gPc7ENqxgmZU7unWlcCNwMD7RQID2SnZEfpOITChHPTsm6v9wQct3g2EuDOJrWyGon2iolZmoqjo7cPvWo3TnXEhzyq6i7rF1yIQWfVnCCWn+My14QI7L9Z58y7I1OLLcKLtyPCkkVlrBKyZujnsZW60J34NDBLWzbD2qiQArmUSnf1i/XjRemq4aimY3v8C/56uujXW/bDVAxo8SxIpTjsQ5XlsLve1B1FvH0sMmkOFoSEK+zobkmpqBcLX4RlhUgTwuxCFASnq90GLn1XZ5oR6s4GN0dFy/Ma3NOl9o8wbF08QJry130718LVldokPzShDF715xWibz2NbNqy/15k/NlwD5v4cZuMJuYQUvF97ZR15tZ39m8aSVjPNrF/tF+Buyy63IymZojJ7eG9xfOYG/MAAs+fB+2e6T3Jhdf841Gl28wQTzVCqxLhln4hzWB3rATqeVVhocXS0n8l9ylUbRZPSbewiueSAsq8Fuh2uqivhB9OaqNHqehohUUsHPlT59oYWei9EqY7raPlbLOZulYIJc0sQWd/Jw9j5Zo4HQeEuod6/4EnBHwMtDSYX9EwBnqRQyS67i1zlzdhOH/au4GhIQL0bZXsPvTTlp4ApulmwLQ7Eg=
+    properties :
+     x : -136
+     y : -66
+     width : 96
+     height : 96
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x285aa117137b055f
+  internal_properties : CAAAAAgAAACU4CtHXpFpH1XNPx7qLwYUibrm24q49vz/TMgMMkc59cWTz0hN9AOSYyx6fAOVFQm2qDUcsQma5XXlEN3v7ROOt1VI1j0+x1vQlD6U76Tr+h1eSR05TG32ilYgwpecF/DRpoP18wO/RlG/Bb6WkHbIU09LUxyYos/Fjww2hM6IFDt/dDX+WsBiVygEyPn9MrKyKtEcAQVeX0g56dmCgz9888iVZrO4IM+FZao7oiCPRRfpQTpn5ciu8eZik+eEAV+K5fn+J11jyZU8g5Q+Fqqn49dSnEnf948/rw0AI6zbP0akiRJjeL0QmLXAB5L1/jILokVOKy8IQvgy1QGuzLRvvw/OrVJ1XPM5Wh3tgarrOmSXcWWal+oY9w3zaqEPzoFQqWypjyhDlwoSM8wpM1bS4HOP
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      code : |1-
+       
+       gsRecherche = ACTB_ActionBar..ValeurRecherche
+       
+       ActionBarRechercheVisible(faux)
+       
+       // On rafraîchit les photos
+       RafraichitListe()
+      type : 240
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Rechercher
+     identifier : 0x285aaed90363c3fb
+     internal_properties : CAAAAAgAAACSppJcrt5T8zE1ZoRdrCcSOe4PSMcidKrw21U4Kjk4VPnR4JkvUtlfnvNtAHZ5N0mPp1++qD5DL7mYE8mhDelIbS5UFY2mud4X7BNw6yUbaDtVYBFaL9vQTAAP4gCeAuvxMhMUj6B2EUNr9r1fkJQcuMpS0hrPAkBEYU0l89UETPH2ttcXhWhrNx/mTybj5i77aM4Nm4HYKW+LyDPU0E+Ziyc1jNdBtbfafvNgqcWaPK3Y2UCGZagzc72DKMYYmVY1ATufJUzG8n+EJeh8SRnADCorHO/8GSczku6Vm7uwGp/GMHtuHLL4OQjijfYBVQnXcw==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          ActionBarRechercheVisible(pas ActionBarRechercheVisible())
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACrjbLIbQci9o8MP/rkr9Dpo71svCgNQ1tPcpOAqLVv77G8Tlgz0HGNWEMjtCgGfV43mtrw4BTiNE6t2M2gMN50vUHEywXsWMgUnvLsFhI4Sls5iKP6K8Y3sBi9FNcBtySlRTfh4jcl8+T2F0w=
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      gsRecherche est une chaine
+      
+      si EnModeSimulateur() ALORS
+      	Erreur("Cet exemple ne fonctionne pas en mode simulateur.","Merci de l'exécuter sur un appareil Android ou iOS.")
+      	ferme()
+      FIN
+      
+      // Rafraîchit la liste des photos
+      RafraichitListe()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     internal_properties : CAAAAAgAAADTpYrxdRv39g8Mv3pkL1DpIz3svCgNw9tP8pOAqLVvb7G8TtizUHGN2EOjNKiG/V63Glrw4BQi9I5tGI1g8J60/QGEi0WsmIhUXjKs1tL4ipv5SGM66wb38Nj91JfBd2TlBfehIsTeGtz+L3Q=
+     code : |1-
+      
+      
+      si MaFenêtrefille..ValeurRenvoyée = "maj"_ou_ MaFenêtreFille..ValeurRenvoyée = "suppr" ALORS
+      	RafraichitListe()
+      FIN
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : RafraichitListe
+     procedure_id : 1754899645470130385
+     type_code : 14
+     code : |1-
+      // Résumé : Rafraîchit la liste des photos
+      //
+      PROCEDURE RafraichitListe()
+      
+      ZoneRépétéeSupprimeTout(ZR_Photos)
+      
+      // Exécution de la requête
+      REQ_Photos.pRecherche = gsRecherche
+      HExécuteRequête(REQ_Photos)
+      
+      pour TOUT REQ_Photos 
+      	// Ajout de la miniature dans la ZR
+      	ZoneRépétéeAjouteLigne(ZR_Photos,REQ_Photos.IDPhoto,PhotoCheminMiniature(REQ_Photos.Chemin))
+      FIN
+     type : 458752
+   -
+     name : NouvellePhoto
+     internal_properties : CAAAAAgAAABe73Ho5ySMgdKg9UxrUVfwAFu29yLJvWDN7XTwXOkIPWpx8ds7FaXwbax9XcTItv8YKXXSKloChfCWO39KLQiD3nTI1etpFDPMBw0iZn2WKziFALtEr3jpO1OAZ6a9PvVgLbt6JYo7gg8SemGF
+     procedure_id : 1754917546895694322
+     type_code : 14
+     code : |1+
+      // Résumé : Crée une nouvelle photo
+      //
+      PROCEDURE NouvellePhoto()
+      
+      // Ouvre l'appareil photo
+      OuvreAsynchrone(FEN_Mobile_Camera_UI,(faux),AprèsCapture)
+      
+      	PROCÉDURE INTERNE AprèsCapture(sChemin est une chaîne)
+      		sNomDestination est une chaine
+      		
+      		// Si le retour vaut chaîne vide ("")
+      		SI sChemin ~= "" ALORS
+      			RETOUR
+      		FIN
+      		
+      		// Futur nom du fichier photo
+      		sNomDestination  = ChaîneConstruit("%1-%2%3",DateHeureSys() ,DonneGUID(guidBrut), fExtraitChemin(sChemin,fExtension))
+      		
+      		// Copie de l'image dans le répertoire de l'application
+      		fCopieFichier(sChemin,PhotoChemin(sNomDestination))
+      		
+      		// Génération de la miniature
+      		IMG_Miniature = sChemin
+      		SI Minuscule( fExtraitChemin(sChemin,fExtension)) = ".png" ALORS
+      			dSauveImagePNG(IMG_Miniature,PhotoCheminMiniature(sNomDestination))
+      		SINON
+      			dSauveImageJPEG(IMG_Miniature,PhotoCheminMiniature(sNomDestination))
+      		FIN
+      		
+      		// Suppression de l'image originale 
+      		fSupprime(sChemin)
+      		
+      		// Ajout dans la base de donnée
+      		HRAZ(Photo)
+      		Photo.Chemin			= sNomDestination
+      		Photo.DateHeureCreation	= DateHeureSys()
+      		HAjoute(Photo)
+      		
+      		// Affichage de la photo
+      		OuvreFenêtreMobile(FEN_Photo,Photo.IDPhoto)
+      		
+      		// On rafraîchit
+      		RafraichitListe()
+      	FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x10faea5a1ec7aa2f
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

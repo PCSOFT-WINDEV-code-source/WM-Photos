@@ -1,0 +1,818 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Mobile_Camera_UI
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Mobile_Camera_UI
+ identifier : 0x20c3255a79676113
+ internal_properties : CAAAAAgAAABOIDvx1d5obZWMPG+ID0G0t0KvXu7ifo5OkBHImRdfEm2LigciGNObsrH8jb8XY1dsEGBBZ+nwGGichk6eIHJ/9oDxdP/apgd0EwC5LS0WWlkBUbRAuSB4oVxYKB+mGFM8o2A6M0P1IPCeX02aJoqV9MTizfjYfZyabenN7hE/crocjZEGlScy11TwBom85iLQ/Yi22xTlw/X4imnl8dUvyziTDJAG12lH/Aa7tmZ+mUE24PJJAncnW9FTZ+yqsTmVKfL2Mgs2AnbvDqnWQT0KB7IIyd5JdKauG90PMrnyFjlWS44FCggC9YZ4vgXHCVozu47x4A/A81ClHql038zHkQQZXJMKjfL+1ulpdKT9KmfFC6JevFqd5I1hUx81z62XB+H6pLFRXVuW1PSITXFCwFjaJMlgwl9vj5Vk+i5t2b1/xeZD79Gph+JW43JNZLFOHGf/5NoOTITlX5VQ6+tSC8jEAd9F5cdW5M9QCv9ywcx3PJECtskfwJmBY9yPwS18CCaE20IvEE+XoOz+a28FShCmg9zXSetPBN+LNhM6j4gsRKNDoPt0/3Jlcn9Hb/2CPtBt7YOpDUDJ6lnG04TE1LFpjDqu4H34YU2YWezfz5H2yG0PuRNYio/wUhQxsfD1hspcolW0NNQNcaMTtX5NU1a+ZMiQ71AxDVskIuGyk9m3n2LekTa8pB8ye13M5qeVMLQ+VmrgWK08UhJxi2KmjXxAQi1ROEBJXhQHbq91IT9hzM+sYlGPUhnQ8MbpQggrYysV9sT7ooqD5sFeExT3wV51pNgar57Ki1JuJ80sJrYfg5hMAhRTSF99hz3w1lf3+i38C9tbMj8ngTTU9/3p6hdhgbEZwc4VMtqGjB1oAiD18Du/6LApOv929OXVgMyE+jjfZlCim5rXjpcjI7JUXgPodHcO2b/n6pcqAy0Z5HTOf+DJUBeFhLkWpKc1XVCSr0DdXnr/pmVMl+9HiXAncWSO6JM5eT/T8XzwQrshvhpslewzlKU25xBuHv+0o4U3gyDct7lXkg0R1ImR/1+4zVMMDby7KLHe8qKQ1lcwzPGG7UppnwHxEJEf1h+sukdT34u5NOlypYrIfif5CBTy100+Uw//b43avCGBA7YxDh5kHNMqrDwAaUir4Kzjvb6DJVWGQiJQRhPCwZntABiYcWLRCmBvA7woaM5rTkibOzBK1yAaLCRwhIBtzw6QRb95L09jZIPZqaQUH6b4N5uUjGakFIiw2q34iJBZGg9kk4/Uh6tEXwrwXKf3e1CtUNM8q1eEy+Sj6aSws1fTGT7dGdE+Y6zDuef4c73qJ16wOUEtN1j6V181Uwd6dHKbeEhoOwy08Yzqn9drHUOlF+ANvIrKz2ndNwOaIu+b9Jfx2RIR6a4IUERgQP1PAChg33/CjqP3ZK+rrr/EjFah04pmzV29gBw2vRixHHprdH1G2LKuYlm971BUsbo65mkUUZPM3B5VsRS1jkR9Ip+gKQZvZgPy6MdKC0joBIZlbtkbQxduJolVjNIhQDc1lg8SFgDwYFqrGF25iSw8wxNYA1NZWssiI+6VqQJs+g3ctVpv/B24zau0q/HOezysGsQ3Zk2gDG4WFvWuYqlbGP0v4sdc8KysNDp2PmU2qjMFtPodhHBmYtaUEv/tCk/mfGCrEnIUrGSjjfmD3XkYrx1OZNav3dY1G2CaGYgEmxaT8gsDXuoA7zEtGgNS6DRezCsySmq9BP+W3e9nEllpwuMvYjxuUfdiKGw9NvUZ8Q/YzwkdVqS5DZK765Wj7G24vL8MwR6H683Kfm7F8WR8efFbyZKTEULSnRhrm/PaqndoeaDJW4V45XXYvuwXz046gBAeO4FaXEvIMBBT
+ properties :
+  width : 360
+  height : 360
+ controls :
+  -
+    name : IMG_ModeVidéo
+    identifier : 0x20c335049d099152
+    internal_properties : CAAAAAgAAAAx/DQABj8WJqfmE4X4rxk5Y0+BIzO5QBWQER8IZXjKrugLRIWDiBy0nRPzN64Xy2ZnCpZrJ7vOfu+orcsxxLJpgkw2XqXgjaIdyjY8q+cwbUGY+rAuzSycTMKWEJP6WdApsY7uB7zLRXsJBTh2Mnq9XNynSfNrQNqUXbfk0Mr1PyDziMqyOXXaeZQLy0Nz18yFRowowyNC8tRTcio1OdVCJ5uwiopPoOR7X+YONjFd5twaEU3H8ZpSwOZgGJdDUG+j4BjUDQ7LGTXbwF8q0TYIYIyWdNKbWXq9E/AkuITq6M6piCNPJcu0IIDbm1PRNbwgDwKwxLe5apXY2a5WoIaIowxgh+bb/RNo2NNej828IRbUZ5gSlziD/Xq98vAlezP4gn0C80XlwOwCTUInltbYVWaojTHFs8KY4ywmWkf6gGE5FQy3xyHZTJyf/gL4gIxPaypILxdXyjcnMZe1jY3diqUUsuBaUU/Ou8q/vhlMiGSEZCPYCoZArRUK2mR43nK8/mU/0QiRQXfuZTIS0oyUssfLfsnFfbj7BnbavKqd+qQsgVwYsD2f9VO5f3+AuECFuhxLNKOfKjtrglW6udYHkfWeZ2TDxUvQ0U2cjBr5RUXJ4q9GDtHj8DBGh75Ixo8zmlf5VAP3kY25aeaMwD86k8KLqBNBi8+vqX/czbGY9f6A1kgsfzRt00KUaPb7jltdiz19vLbXqmHSBlNpKv7RPSHn1zB0j2+yBf6VUiJLjvjoJ2vdCr/Ij0NLev8M/JvoxQNXUNFjwBrBiV6Upw1lZfqqaY3wVmbXeJTRZuAu/WXRfeczmPxFDxjegfKdLrl6sCBmi/FLiEid9Ox+sswTt851PT7aYjc7JkcN0d4Vh7ZDCEP7TtIOiYyqR9O64twCpOUsgae6/63uvlZ24OmnMqOOzmgrBPUu+iz6InC71XlbOwd8tt153ZcakpdwLJBO8runR8V1Xih/FOoSJ1mX70IKLyUwoV74+yztbU1G2XzqYiTpDKiot1VrfrVkLG84u+yrAt2+Zzp3GxJXUTbYDVkCaWfEUFVjwCPKNnr0KEKWyrTfcnBHDb6vIopRa1zR8ZD3DehJgoeICk2thwDwhrgaI9QZSS0P0CJUxe1K8ZeIqmibGO+0sYqRb+ppqIM2r0KHKYHMXY6KoOywgylTrN12jDsh3ri06nJ0LsLQvE1qvWZlRSqu+vr4tZnQbv1WbJ55vXCidUlxmwQJd4mQWw6r9loIwd6Bo8UPUGaiNXcHhLv1tBl/c+huAACX30H2Z0mN3tGH36xpika4m3zZ5i6xg6CDhYJVciAgbZAHuWbZv8HHuXjkuMFfq2Qg5dpvtKrIWumDOaGBRoMKNJqtwBVSyUukFaVeqWy4t8mRWoBC3+UpytzjsV8NuMlT7rLi5/nmrK7CpNbFoKtfjbDMxz7awtzn6oBOYpJPh1YUe9g0JxzvIaebyKU2q98kO5e86hXtS10d+wJmWRGTPpSkAWladgwDMoyqcq1APYQZ5+/PvVWpYt52YFnzqXj2eQXRtqblo8C157EBuJEwcrFoVErRy3oK4MPok029f/nN16fjhoCSO78Q8DNn5PXX1bftKO9nP9M2WrJ5ejLSAsdscuCtheKJbBS68MCc9QMqBZK1gInGcRi3mtvVPsUH/EGPuIelYvg0crLH8ytiUHUmXPFhhXoCue1yBmdGPHatl8skm/KPG+zHaWuWko6DS4gGxwscw2Sm4OygorUCjaLUOqpV6TybReDOpPBIkhRPsicVhJyU
+    properties :
+     x : 32
+     y : 301
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         
+         // Retour haptique
+         RetourHaptique()
+         
+         // Bascule vers la capture de vidéo
+         MaFenetre..Plan = PLAN_Capture_Vidéo
+         DemandeMiseAJourUI()
+        type : 18
+  -
+    name : LIB_TempsEcoulé
+    identifier : 0x20c338a1a164adee
+    internal_properties : CAAAAAgAAACtPIVcFybFQJhAmMUFjQxpMKSjMZEQDT4jHZPHE91bPfJc+DRueOOE+1R+t0MpmwCjvq+OwgtVT21mxsUu8kgjkVmiTBkJpVpwp1PFvzDc0LAJklNEs5ah/0lRqZKurzaUuteQJZJo4lIsRb1GHvDeKknwDqGHsu1NTvlpHvN5HR4SD4N6PWS1XpgUXivrmnvqqbcQclRZf52t0Gwzf57lFl4e1dMyNAHl0kr8bz3wwgpwLshGxHPFsBggSh9qtBC//J02UsXMbfBDYNyqmUHo1grgceLxGFz5ug/xl8pFFYZY4AaIWZy3tHtL3Tu8ZLzsgBqfEyp97+J8n7mgJVOrPH4Qeb1qz0UA0jxhsJv3OzUgJKw/5bhOwg1NhozqHNNzPR0Us6CHsrcuy5/dSy/Uj5zabrYwbDf4u0Cu904f2nBedEMR0TZ5SOk+xtAyMI8gDsGQCIrXSui4thBPoOnnc6jOxvnGmBSLx0bnIOUybSFm6u4yHM7FzfAODPo04lbp+5KeIyXlTsof7S7stJdDEIrJjpYN/9/0PoMhYH/DGGmZk+5el7UzJeSOOWADEO0ju3u5qZbs+H3sBb1RwgR0Yj4LQ+Q5Lwwi5iQ+ymTmNoZDT+zxkXsZg4kE6GluH4+sGuVGmfLtn0Gval7tld/MwX7tgrmXybT1vzQMU7EthETeRbdLolZD1N6Yaqc1u/DeZVIfMPubXJUBdOV/EsS5zudKd33lGPM1EAPp0BfwBmk527PBGx2kPmM60EOb2SlDACnUTbMeh7PczG5f2VpK/cB4w5DkRmQ7cjL93Z8/q07H6nNnslHbOBzEKFy82uevSOBZmMSBjMxQafJQkavcpxPClhi1DIVhmsbuROX8ZxB+YQWqxet7dHSgIBzlQMVLM9IuJNjMrQQNEzuafPExDhsyftg0wdtVlrWo5tLtprGrTzHRwuRwa4pT1s47gn/+2KfXs2t2E9RfrdPlUMnNWJw=
+    properties :
+     width : 360
+     height : 40
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_ModePhoto
+    identifier : 0x20c3678d463ff964
+    internal_properties : CAAAAAgAAABRrTTQXSY8ARc9FBJ/xtO0C52qvRcVTp2UxRb6Ycx8/rRga4Dt1V+0TbudcxKqB1okCHKTGdDaf7JfXkNgkm9WFC2sNFMohQX3Xd5y8CexLTgF4FwpeUHtK19OGaaZ9Onkcm12IfPXDxXjprYMyBa0t2TA7/55vi0gKgw4vUdTCSOYCF7zRunWlQrfGIsB5gFtfYNU030onHG1VE6L7yYM/hpOiCmWkIrQJLyswr+GHERXE1N5wGBn3w1FdWXuxunnrdF2pvg3nplFNTmApxrIwQX2WWAkemBYXSMZkmkjldgytrAjrEN3nXSplFn8UPnDS1/Jjc5h/CeWSzIVlKG1RCVh1FCnElkGlDshdwQtzyRUVxzvKIR+CZOADXtEKHeiFGMvfHHnugHxC5V03nuhWkLFId5B8MqXsm7qJOo3096YhdjUErpOk5k4H4kUVV5XvJ6AOJ4iDbJy/VgE4k7qiNvwJM4fzjDFOFLISLEMEp18t3LXJCy5R/+OymMQlYWjwhg7c4p9JawfyVL6aTVhp65UmjCytWofhqNnJLaJgGX9eo3U/6+fJl7u5ArE3h0cwxAE05KzNhTUX44YStIM5+zhB36ytAOhuKel+ktSLbwgfNEouPtRivv926PllRFiSPCH+FanTPnraHc331Nq/k7KpGxEbYnAnVRlpGoOWBgGRGryx8i+lhQzhv3YgExbTP9z3FPxbmiwrywcyFzR9mzY4U8Om9T2U3G+lixoVEdN/XIKcTs8JFzgNU6Tq7+daz0U8tNS52nXbDfAZ2IRVRQjSvNCX/1ZE8P/wE7sMl/yjuu3nqLhb1c5P4LTsH9wLmAN7fH3WdQpHL/ett2dGPuaHfemHNI2oDI6f3jasvnbKe1Dld2hCALVmRHCDnfEecmS7E2mjievir88L0c71GklYXJGeNZ/LJlthxiIIWRDTg758br5izbnpF/BM4fEFhNgF+cqKurroBWt6K1nJXqPEoLOpFNmYDOQ4iHar1HRWuqpihUrQPLlDUErou2f7EpphlHM1uRL5NsLPLyvOMOzTdgfpsV+FWBC+aeesTHdmQWyMkrKZDvhmKDm0jJlck/Kgr6S8udFz85cCCUziAo1ORKn7/K5mNtOCylnBnXyacv1DrU8T2B7899pfUAupRY89ILE/HkpKAXtRl3VFr01Hr2XvGlcSyots9IPYxhc3YTlEoHkFZ67I0niNcvovdbnYPr4/KsfxSxLikrTKK0QF7zA+0vc2K30q9+CwJZnCRwgpXSbbnSNRimr1JzZmlMMNpOFH0GXAMYGDyM34MpXK6eBxaP7X1MWZOF9Cwb1rTADpstCqIwgUjlsUB3+P9gR4UMfl3FymmX0xI5EnCSYrY/XEosLTGgUMYg/D2A1KObpmZ0e465x9HMwZ97GaVstqd5rCrCwbF6Cwz3XwZ/XstgxAcr1MlIz2DEhXyDOStcy281xprIj9bUfkbCRWeu8kXgF8lLj8JGU+7pwvBH1c0bDLnwa7WzojH5hOWku4QtnhZZuQWtI60HsWNmnpFu00WdrqgRvAXLicR0SerNat4XJaoN/vcoPe17vVIRt54F9q88iEdlZvaZCqqZceb21SzO790xLBTrNchFRy4mLmRs5/Hnp3HO9m/BlxFMWCttsPhuV5538rN2kvoxyMCO/ZKjVGGOEW8W5VtVT4X2NMsDGzKnt65JgzHsVV18UavQ77bsn05DM0tujU0keLilg78D9jgjx7Gttk2dQf5cDfnH7vTKWCOnYtJjOqqy4
+    properties :
+     x : 32
+     y : 301
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Bascule vers la capture de photo
+         MaFenêtre..Plan = PLAN_Capture_Photo
+         DemandeMiseAJourUI()
+        type : 18
+  -
+    name : IMG_Flash
+    identifier : 0x20c367b5465e944c
+    internal_properties : CAAAAAgAAABGhyqRJTIwGlRwEIL15qRocLJn93guGAka9yj1p0VMFOo8dRsgx6X/xjDuBqaE2+EZiRDDIJph9RVKp+vONQ2dzyFIQyN/bf4gi0IneO8AgluFao9H4+AcQDdCQmk07Xv5h2zxma8861Snst+5eM8Tz59tyYH+GMmICX9yFQk2nk9UbOerpSFBq7JeHlSnEICN6UJua1gl5dA0KBXYDT8+UbLNhpoAs3mtcATT0GLCgPcrKqjcIWb4XHveRoWdSK33jxMckvEl5FtzUN1M1Q2I19cfKGMAwakpWKotOzcoR8iCemZCq+C5/m0MvQt32wv4kTjE3qEDgUfx0gxADOH2IjhnZ85t7L9ENV/CekHXHD+78mBfZJkIkcxS9FKD3IUxnogEjg0OQHLAK8BSrsBRUAxSbLsLCLiWkRZFhP5zcLPS+YPXn7r3T3bxzEOYB3/e+EP6TEAzBzNI+TfgtCI1nf/WpfZunDx9qFYzn7iAngCpb/ZOQuv9fHdOsUVD0yTjo1r4TqeNYAPkc/RzmK5xA0n2xd8m8ATOyC9kN0ZbsHwuctCBgda3N0yk5Veo4ncO1aCDjxwyz80N0pKHBAhRqIH7QmbjhbziUuVRSLBZfmXicKlVcITdaA8J8JnuJc5dUUv4m14KLZihE5X351gbyu70SPxxC7bi7iAFfwDGNlfqkpOZW186nYER9H8WT4cvfrr+JySoypW3WZBEkLNd4yAgk+Hw2YIdPmJYtg9gOg2f/dlN+QP+/jeq6dg5X+9ZO39YX/EtM52UJg5fcnSsRpXJzIAPiXVysHn/Folmgn1xS9uP8yq7UNkb3eTZnMR7tjLz2uFMI20woSisBxMApC++WGXVUAd+Y1mSt9SCzq+Jj1H4rrF/kUhV1hl2MLY1RzKokhEKmEn45pTs2zaSnRp82yd8JSZzFfU7tX+FHDeOty3nvbtxc/BVkjX2XkhwAtzFam/OTSeAovGDkhu1fvUksBX+AixBL04+LPFPLiXfdfN9k8pBiE40rf5YLMNC6uaGbLfHL6JhqnvJvJWcJBq1/NlU+1zZWh9JGgn7NlacIlFI0l4gPEc4VnnKAlCwlLbJ3uNMjr/5++VGljNFH8vbrYXSOxv7CZSWpLZfrIF2KG8fJqYW4yR5iWny8fjwMiPJfYSmcFiajnsvfJXArfIDuiM94Hj55CktMeU3SFlSAhHucNnREyEjezKBcPdiOtPHUoBugZxZDauIISnYuVrt5DoPxWIS40emmLTWh8vbcTlLFpA20M2MJuMXdieEFxIiZpC7wrGZQ99ZzLhhHsPc+F3oLxMnCpuTGKYPuZK9vyBxhOM/Ds7gr7prXDs+g4pQxiMpr+If18cItWHRO+Oq78VQfiGM83kWPrJn9fyIgbhkVEO6zsuFzHSasoE6+Fwq7KYJCn2CKy+wCBQT6XYOb//XrjNGbI1mpkcuvV9nDcSDLry6YtJL3EQzjoEv1siZ69G8FENk+OwZDb+aEiyx0bQ6GLN1v+eYNITfDE/LNaEqnBeqqym/Lj8mo4I7XKXdpzerZ+R+IxkmD9LMgrcxG46NwRNK9hdxD/r2kyG1thryC7iVw5X/tkRlKzxeV+jJj8/+rHxr+0Ja1pEXgcJlFMmVojovYfNiZcv603BR0auq05oN8HNNV3+A3UJX1skXb7zDHVd2VFdo9jk/QGITGKa7way1KtGRR8VFb2uukyGHezuPPQQgpbfYCy1VxsbtDWz045LZ7xK2WPJBZ2XDlzpjuWxLfukJovTncMfU+moO3g6GJZ9Hgc/yvalwK39YbYJd+XjYYpw5YTJ+0mBnNncdAgYvrdB4oD3/DXaQYcWdNYAI6i8GyCbVwPVsxzhNT8kyCYSs
+    properties :
+     x : 296
+     y : 32
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Mise à jour de l'image selon le mode du flash
+         MaFenêtre..Traitement[trtDemandeMiseAJour]+=DemandeMAJUI_Flash
+         	
+         	PROCÉDURE INTERNE DemandeMAJUI_Flash()
+         		SELON CAM_Capture..Flash
+         			CAS camFlashAuto
+         				MonChamp = IMG_FlashAuto
+         			CAS camFlashOn
+         				MonChamp = IMG_FlashOn
+         			CAS camFlashOff
+         				MonChamp = IMG_FlashOff
+         			AUTRE CAS
+         		FIN
+         	FIN
+         
+         
+        type : 14
+      -
+        code : |1+
+         // Change le mode de flash
+         SELON CAM_Capture..Flash
+         	CAS camFlashOff:	CAM_Capture..Flash=camFlashAuto
+         	CAS camFlashAuto:	CAM_Capture..Flash=camFlashOn
+         	CAS camFlashOn:		CAM_Capture..Flash=camFlashOff
+         	AUTRE CAS
+         FIN
+         
+         DemandeMiseAJourUI()
+        type : 18
+  -
+    name : IMG_Torche
+    identifier : 0x20c367c34676cc73
+    internal_properties : CAAAAAgAAABCh+zXu1dGdyCYU9msat3FI62dr3iY9qsbVrZpeJJsgeTVUHOiCQWD7byKDbaOXB2ao9qIFDxFMAichBVdZ+Dc1/Oix3FPGkWRNSt7a7RLe549/qtjkcavgLeHkFYnLKkv1O9oqKoNUUvZwlf2SXTH+8LEbW7JI+40r2LTn99OsYN/fKBKvNhTHw8Ycb8kSQvJd26HG8HcLa7ylEEkkRq3RUQGu7v5JXuxxsIG1BSdEz1UfXtL2vL06F4q31ii12TKSfAVoxovrGyUW0pKOQdetnXGKwqH9/bH4yqEt790PVpVo+iJmReZJRleMDEsaViPhv+kN6SA9BZ6WI6Cw+8kEbDFzANFvC3PFl1rGkexpeJDspa2vha3JCWx/1qrXbFtelzaFACvskeT0NsFX9nOwhgiCHw0IhxuLmQLMykkL17NliMWnw7m4w3bd87JxR8I+u2AK0p6j2J3yci1X+ObmBg+lGMJQXXggjYHhPHUYfO3YRrCTC9sdO+XJo8dLDI8SZFURtzRu3kyNNUFnbXbgG8yLXvjFnFhIoTUfcioOzxG8QsSTON8pOTBeY8CDjYpU3tuYnP03wJuT7uiAjjQx7MRkTkxiq7Al5WgGt5ZIpfqU7uVOcmZBkGvEFkc/tD0gj3V9XySYy/GdLuf5mnKQ/75hzSmWEo7qg8YKRMVmvyc3BxIisL1DfjSqIcfjsaFiNaPOPpumBHzRarsEe7Ao8dSvWzN7bkuSHcHjz5zNdUlzxgk0XZOGdgc7x+vqpdGTWneVXJuKRfCiv7y1FYaLm4KIYgQkagj7HvNEt05EtHUZEJZ0VSVzyNCUd0rMt/1OZiJqufNFuee7lla3qW+xddxtglkDes5Kxhg1DrdRObqvmGYU9392z784Ch1zjLdObycTEUG+6dryhBSHyJzBB0h3rj+uct0VezrFBU66+poPIfUd3PtNC7qhGpMcuhdeNUgV44EfXCPr0PWEOPu6CF7VzxAvHxrtkqqRV8mqLIlA43V34GnLtWythvuicT2jTT/LgRSCyjleWjg0xnZmj54QLo9+DeQnzFP6z2EkK4DmAxayBrAwNf2p9QYJQKavcPxHZldz6OV0ytIHJs886jCrqpqo8WVlFGzCqNHWi31JLsdHYzLIMciN2Fku4ROkTyG94wnR0z73bEfCMhvbKwYskjg+iv+PXuhPWhgzK6tlPqLDHpKbIQXZVz0ceooZW/Ba6TSRgqgpge6jQ328cwU7LvaeCCY9zyFFXc83zTvaPyncgRq9YT9LC4fYaFpEMAusXo9vq9MPhJOtv1shUc093CU9CsoVHVBHvRo3xqmdGkRSeFMook8Ge0FF76Ee2fQNxCYLhbac3oftgNvO1pt1B/Crii9PF3lMA309f1sNpLipnwbOvDlZ1utsf/r2Iqzwk7OxQGV2DqAX8DGiQFVM5kXjpsE0EtOq3R5qKkHQP/J6VqOn3K3Okkl4vHJYJPJ75l5BI+vqmf0teBs9KumyhMsCJAj3K7tgovWius/CJvl9AsVe3S6TtZIAlc+ievEKTkKPPFba7s94xOypfgmtVkWd3W+grlV3p6L39zamVk65PAimmu3G/SwlSieeg0BV2+JwhKRUj4Ia84qnvoC2xcLy/UFOHrgzwbndXXAtakXVQAPDw9JWAw12z3/oqFGyZ03ISfuTBAPrVTmiqy2gM42JXoLKq98RR9JtFeoMBvvPr/AqpuZRHsq/eeTgU7ZWz0I6h36FbU1PSdfLKRSPFot0QNAqtLP6gJ/wIZa1XzOGnrANzJCY51knCHUpO40mSrC8qPeT6EPMcudKmIJgpB2eeHJ126ZAQS6HLbfofTTOb4dk3mDjnX4Urdh0dC9vUJLFhufekGWWWPon3R7vCkxM5xYGrFMV37QpUEfsMEPxKyPWtUGgZpm7jwfRrv6efpN
+    properties :
+     x : 296
+     y : 32
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Mise à jour de l'image selon le mode de torche
+         MaFenêtre..Traitement[trtDemandeMiseAJour]+=DemandeMAJUI_Torche
+         
+         	PROCÉDURE INTERNE DemandeMAJUI_Torche()
+         		SELON CAM_Capture..Torche
+         			CAS camTorcheAuto
+         				MonChamp = IMG_FlashAuto
+         			CAS camTorcheOn
+         				MonChamp = IMG_FlashOn
+         			CAS camTorcheOff
+         				MonChamp = IMG_FlashOff
+         			AUTRE CAS
+         		FIN
+         	FIN
+         
+        type : 14
+      -
+        code : |1+
+         // Change le mode de torche
+         Si CAM_Capture..Torche=camFlashOn alors
+         	CAM_Capture..Torche=camFlashOff 
+         SINON 
+         	CAM_Capture..Torche=camFlashOn
+         FIN
+         DemandeMiseAJourUI()
+        type : 18
+  -
+    name : IMG_ChangerCaméra
+    identifier : 0x20c367ee468e745c
+    internal_properties : CAAAAAgAAAAKq1My/S2joJXywlGp15XAPluGFh6b0MqyYjoCSTl2UdwY6Xdt77aRbONMAhahAu/VXWzCzRGSlzkUqcrFG27yt0xfw9C4voesXJ5bz1uj/Nbyed5zUyi2EueLy4ubEnj+CKPk419m2j/TcpcKoNldE7WtgfJi+2wyRKQKIwYw+KCMEv3HgpeP//Nv5SM2Eu3x7U5krR28vk8H0pHTsLKWpv9CgFC3dbDSezHKvhgTVJxjC3SNLrTnAZeRFDIFRUm9q1KKWDtES8sI3EJgvLX2m471tDzRtGHtrNAURYHLHs2ee/tFDpMygZpdLHzyHcTCWkcJufpH+qnNJwC6W3dTwBcIplyB5Q2bvmgswPXOJSHscUmH21kB3h0FgM7Cuzd2CdKhjBb58bUVM6pRwjnAL/lu7JxycFDHQkE0u6oaD1mU5z9cFjl30INbWCPVyy+cSdWuujjEQ1IEqtpOzx8onBvQl62mxbFUUc70J08U44aaFKPWGYCO1ujaNmYRE6Dty46+kFhScu2LUT5xHqPRiCTz3h/YBdaxB/epSB+aH3f8eBl4X6WXVQ1bcQAbj6fLD4/l6cEdc5/rabGnAKH8yEZAaDE6UDux/Gi/PiuH1fZ3aFwDloZeIWI+1AG+OJRHjXcupgXYIOBYzGcF75AC8QzqsGdxhOfdKmg3mua6oUCBAnE3h8lZHdciaWTFxaYMKfOvUlfvInO30Gl/aMG5CTNkQb7Wevh7sTTQQioWx3pQXXue1Rmpu0GqCtwxnc2MjqaOhUnr0DB3YwWw5e17fq3zV+sjilgQ/ZQ5crwCjIqJ0GLNW1jfIfJeHIu5RMCEWD3NM3LvRwpSpkd9UEaamJNADJSVEF5QQ7jxcUWdJB+NZYW4OEE9OYLPHd3vbI0+tvQcO9CA+d24WUV1crbQkpiWfA7f+bsYjVE+nfd+R6iGj2U4WYWC5F/HEi0POiXl+sla4uVf0bIbVPd5ubQxMKtwWzLHzdRGxRRAGPUCKOEb1lqWgSrJtINloPQEcjC3jjSJfk7Lksz0vH0draQdAHy4Y6dql3E4xVx9bFr3zqljlTmggKzE968N1tC7aVF6jMOVudPFj8M9vsqbH5jKWjnYDvvI3SzEzH6e+phmRJBdMzYe9AK3tW9wwqASMyf3BqxW7wH/Rz0TylcvhdmSOXfH6BknQdAYPPcxfEy0IIHTFFWEebhfGSL3Ky++nPwAVX67Go3RiMp1g5YhqVPLSnXi+bKFlfq2fTq7lf0J0F2q3rM4uZfqqC5HeZo6AH3jSGvXy+NXoMyngx3Bca2nJFJOgnD87RYp0zKloxzfUVRB7/MtULS6/T+B9If91HDVMBivP6jOwnjiUjnowCQS/vHtY8kbr5bk8tZAj2rLBf7sDS11L6/gFAEh2ltkNUJdzXswlHSymWkN7c2fg0/ltaK8EXi0j/bCM8Rb5YySiMoR56nHThhyexcBC7c7qazESWTxMQbCrilqp6Jk23u9x/SwiGS9RfFI+R/gXIxK6J+1MbITnXpyIUz+28rTrl82iZYzJoy5vvHe8/TsFClqVNnRCMmPz3hZx4ShD9rLTC3OEEmOuMflt3EF2B6XdzlPAZprso2Qucgd64DpFxeajEPJIBGrIvti5awg+UUUDZzX8z3M4ko3oO57S1hLZ+c7fV7JRZeY3essBTBgfML0Hy8F4xC5bIiJk2r6s1AyHqdAPrg2nlKtbJkil3X1uw9ghrO54DsWxzPU7R+NmVLgZ6on3WhgMzxYEae1Y5TBCXF5gdWFEEGbZ1dEQxpXjbgbk/p6Fdtr/chg
+    properties :
+     x : 288
+     y : 301
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Demande de basculer la caméra
+         si CAM_Capture..Caméra=camCaméraDorsale alors
+         	CAM_Capture..Caméra=camCaméraFrontale 
+         sinon 
+         	CAM_Capture..Caméra=camCaméraDorsale 
+         FIN
+         DemandeMiseAJourUI()
+        type : 18
+  -
+    name : IMG_ActionPhoto
+    identifier : 0x20c3683c46b9a28b
+    internal_properties : CAAAAAgAAACQtFjI81JB6Io//xHACrxTMRpVRzUWdAOq8jclt+sneL7Bg1020QkeMcbDZD74x2nlnFiid/GyKQK4KKXHT7NQH4dqlyE2Y4hF6jpe/xUQlX0MiOsgRlF3/qUEn5beBC9zm9c+sCOr0Zkpw2owFDI+myg8uJy4hAqQ0urdJ/17EYUA8o1g4TjJ8XXfvvMImkVf2MOKbplTox+GYVTx0bEGpBvzIusic8xnn2SXPpuzScpF+8d6NmSkG8gGlXKA+QyjQInvv/+jSRepzVuj9eIKwrTjgTP50mofYQyoOXAiuJk2P6LXDWQvMwhIDZVV6W7Hzlh9/eTF5g1rZ2QfUFX4uJpmY8OQgErVrI0n+ixgL71/OqLrU7NSgZ/UbBLO7Cm+5p/JNVnU3/cLQqZeL7nvqXdnOi4rF+5+E2I4UVTFVL1drkUpfVxb5MwZaps+70JVeHoPEt7wQ7e+Xu4yjMl4AxZWAKAR3RoUfbJGlC5jA4lULoxnttfQBE60nD7xp9i57nObi/NsKTYr1SvznRIyllqHqQcDb/8m+hRtugVOrdhK9jUALO0SJlWh/sVU1ItiOAYNpnNZbXfDkiWKvrGYnrINCSsHvcB9z6E0I8ZccyoYtqfkHBs5xrXKr/Z8qMWs/6/nb79LSGwrXrQ2xq0gMjq1RxjDNjq1hPdt8htssfqVMFCjxcuB+tGP3cytUGL3O6JYCWMwP8XuTj1OxIZyGGcyjoRUwCSUA/VdV2seW9CnxOUvdE0JQ8qfE8PEXZv4PP1tryZUSKpS3pyDLB9wX/i4YPwMecGfXwojVCLcoOYU3/Aq4RgUWyszbVMTYwOl6qMoWsvfuRrpObrkJrUXeYzHecHd8FLJuhr41cxU9fwfzHXtpksuRPs+tdMnP4TuuCcSK32oBUJZ1F1YQNgOj/ZO6fChmCvkw7/fVfcHvdqKgxV6sTi3iEhT0/jouWzLG6nZ+qKVIuvuRiVQGurFQN+62EuN4BgXm26fWpdHxAzygDcunzzxFjbdWE6DDPevSJ9Hkc1FV1jyPP7JXrxOnRr8wQSFqGSZO8+5fhFits+LDv6oFcoRCvk04hIZ5k/IHztbyPdKKFK6Cq5yEWWpynASMxeLplxOCAHTyknSl2/kC97Ajc5xMSGMiPSraTT/0/7Yeh0JIL+EUoTNhvTYeJiWMBISUdKyRdLQBEuobGb/KU7OXBhQDJVrsHlLYBx57AIQuNqzAZCGCqqWPigWbOuZ1OuEWLoRRbqPOXV7HvMvHF4GdBH2LiycbQ8gk+UZxg5MnnrgF2wCJmHEIRJOt+NMTQX+HcmOjCwrKN5iEYzQo1cUJI7PvHiNx1MMjlCzJMNVGt9Ne2tDo1j+/iiL5olD7De4calulb7FczzbOq2khoS9NUE7IGe9l2ZwRl2xgI+ehGeFdvm3Qfm8Jyl1wABa+9B8009Ldgx5qheK3VHNneDitGYGXbsGpt0HSPd9ByVYzzqVbLf4mte0o8Z5XYF0pXrYjk488Pl0rsUFAlLhpy3pik8uTUQvzp7A7JpbT3rFF9w72/5a6j4L2nBvo6LU02WcxXedsypCMQWRiGMUm7dWvZ0jOxgwxBNq+wmLwuW8zW6lanSTJZHM7YkKolM76tAsWqsySdXMURtq+f9EZ4lend1Kr7ahuYcf6wmqZJ4/EsMOBj4F59H1tRlefWzm1uv717+wIiv6W4fOaUr0LTJOSeilHLf4wadWML9T1KXu/nhdv6x1xJDC3mZ9nyTG/zwHaNIGH0ryRo2Nkd5e+jFg1fDw3z9GI0Drao3h29j1x/3TzpSNyKVQlW8MlMKNs/qc+w==
+    properties :
+     x : 147
+     y : 284
+     width : 66
+     height : 66
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Prend une photo à partir du champ caméra
+         PrendrePhoto()
+        type : 18
+  -
+    name : IMG_ActionVidéo
+    identifier : 0x20c3685646cc0925
+    internal_properties : CAAAAAgAAADSUn8UbE2WROc+1K/SBHt85//7Q2bwgqt5zPW8PjFCcsa57EbWhmHFkfTx7JL+f7dbgyPzLLQWNtnXtRohdvIlMp4XEHH1iXalZ6K5jwuhDv8QFvKfcgT7Moai8kZywibhMwiQ9HzSfYPm5laJvYd7ZmICb7lM9D1awtC3akgTdwi9vkkGbpraH2r6pRp4EfbGOM2+abpeueWwOdV4XTivlpaR3mDFvY99wvJHe5IBoLtNPsoh8hDNU7JxmlO8zcfB1EyyQPrTc0w9CqmsmLm3i4kuMc//u7HegPxjMoSzHJ793dUSd2g3dgkCm9KHoZpJ+j3W6wjrkjWHbLvWkDYXkdvPtq/9rikv/pAqFjkbQmyAYclakax0z5Q/XMwDRGM+z/232gyCjiEE/VPV4ksaEg1h29ACzWo9VSwTM4x13NQNbcrabgHo5krsS/xJVFxMzD1B4pmTuZwk/QKOF4PkC0NqT5v9p1VuzO2xCHj3wvOb9i1WkVN5vdNYKm7oxebGBsoqCwDixV5sv3qzsdtYS+ZWuEo0hVWr2iO6mOxjVYoIHRCEPCLvNLOjyS5zGN0hI+3yDLG7PF55lyfcVQD2JSk8Bjasyr1tKXg165BNif0Ehf20bDRas3Z+bnCYjECw16vY4iL1/Jt4ffqJjvM6IkNT1JGc4m/Gua6yUrEuPQkrx/25vUWrHrsr/NhTZNqd52aWjVULKQxpRGtECwZRkJmc2ncn3wS/Irw+PY690Ba+F7cphr9l/IbCVldAu++Kj5cS+hu5eJZlymaLkdpd9bVzznpE+KTlHkrulM8f0GXiotrqX3sCgUWVaE2ApJq1fbYtdTdXkXMc+OQAGqdT7XIAXysr8tSNbd/qVqqtvkTyf7QzyXGOnxCZLf+30RrnUZIufdYZIvxBpa3tsdDOmfJAoYoSB58izKN4Pr+JrsUDgizzOTZzAIBJTM0b7c6X3n8Tthqp05teVVwfrMkUuWqu8Jche33lFVizErrXkiJK3uOzG+A2oyYFlI1sKJ69ordo+F4YtxZJiaoQNpyuERYWLR+Zdo7zxwuKhu4It1eTpj1cLxdl3TX2fUb+JGLBiS1dn8XDYK4rTkgAkCBP23hGHycw3Nq/IFgRih4mLzXvyxU8iQTRytR1GDHKivnCU5S1cd/P9zEhcdoOwN/nzjytBv/q36Jou1mW7Sctvi2OPIQ9ICEhgZDNQa6oALv9xHCcP6bXowFNVOdS9r2bZZrmjTS0AwWXFJK9/Ahkon52QxltrdwGOWcRl6f4khnqLN6eRZCUzUCXBvO8GsttNsHshwFPcvu3Ktf+rlwhehQT7I2YRdhhTgp6FfXzTtxWRm6oxNAxOD3de8qTpDcglFQlW5HQ9RUFuLEW6QgVgX3dMx56aXFpCH9bhCi+UUHZblWwtsB2t3GMs68g1yEI54q8MPQ5n2C4oj+4JGu13uvu9Z5ZT0V51Zfy3R3SUo5J62G5UxlriPX9FhVlN/ncTn7FzlzyR+gTOlKIC9ArZK0vXtZSt3QVVK/wFCej15QaQpIwjoyoPBgMViyN+21uvDfA/HF67WoW3llqaWADARUFitnR5FIzMOxYvePxku1oxpufC/mi7b55+AleJpfmG1f2Mr7RaCdBisvU1hP8fpoesmuBJK2C50tDp5ETmvEzlB8viSuJ+RzhC6Ju1cAvB+qGPS0TePF3d6LrHCIiYwECejiE9BXDmXNmCIhRGZHc3jdb6Y8u9Ze4tujrmnLkUmt5kGwbkKI8N1JlOjJiuSDTzFlv7cSXaKLzlcE=
+    properties :
+     x : 147
+     y : 284
+     width : 66
+     height : 66
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Démarre l'enregistrement d'une vidéo à partir du champ caméra
+         DémarrerEnregistrementVidéo()
+        type : 18
+  -
+    name : IMG_ArrêtEnregistrement
+    identifier : 0x20c3688546e0c1e6
+    internal_properties : CAAAAAgAAAAtThpyyAkhRpgbAugmQf9ncISF0VO18SvC/QfelQAYQPbdg5S4gHneQtMLDYNn2/9GinRRPcsMEX2IDCtFqjRfObx9o/8pAJZE8ZXHlZ13x8Nw0j+DYHDSjt9JJY5wZqa3SyL+DNpwM8izblnESJd7qfu0X0C9lpdLoOg2QQfUquZwv60A+Zxz/K9/0dLaoGQBf9+3KoocFDUcfbEtBfNcJcU/2TEv7M2yzkd5doKaSYpHu1gMQIq7yfxhmzKcSo7wrkmKI12cpyoz096ewbBqTQCF5kY3T0GoAx2Ku7BgWj/zxv+yH5QNCw8IyWQq4VcYqLlaUCddGcAumqFRmBZM8SSb2ad1LMsIPmm7fh0a0FU9pH5yfxQQo7TChAvRBCClUpntOKSI+oxdY+UpSSKNDN1nkZauDX956j505SRZTgmS4F1vYfcYmyILJzfwBtvU6E3wi8cw7mxOgLuxzsEcLTetRRdukRvm/nDeSM2SewNgutPik/FCzDCtADW5nbEwL+FSPH9McytyiNmAL3Y32LskldHQCektdNzSqOOdvY41Ied3L4gbIbpjkg0S6hBCVl9O1Aa1aY8whkbGXhiCCvZQLwu1+xoTBaxetKVT2GY2b9uQGPfgD4zw7WCKwRz165s83RDyhGV8LwdEjmQwtn2g68a7pymAtzdc1kFx7rHVIDhoZ1G9MqX0NB9CNtY0UzgxeKM7mVXvfULWeJ3YAv2XOHWt2/NCesUCrKyDg+83wq3pSbDiXCt8jQRg+vJFPbDOXtuU6PKlIB47W0lFTsXA1d2uWlizphKdpUP4YQ4x0ikFgWG+Uas7Pm6l6du/AFVQr1RQJwR+BkhJwI/ukHQZ27ZIy/6Q2FZFmLOMEP2aGYRcRCkYU3+hzU/LwEj9X8I0PC/hj0/zNqBsp2mSA6FuFM03UTL69maDstbw5bfkTP8zQDP92vvDoP+t1fGOvqjazIoVpdfN7YVOZ/UOokrDlKF3C5B6jAYzoo8Fm+Nk82EzyHfOJmPDEMFjrFnGlT309ZMIV1ITnp7eo6R2xfn7TQ0ygV9vH815PAwSUWXZy22M4ZsJvZJICYc20SEtvbOMav+t4ih8uGDBBhGnFknbsz8sD85UXeOkCcHSGXuokEwFM65rC9zlZXbefYiHxiiPzl93U3QlluUVa9pZQE8gIGureg5MF0n8dfB1yHm/8Bt5hVQKht80rwCkazzfXV536iod5Mv0tuuUZhGFNKvqrXX74F7bg2pj3rNXnQsXsVHl6579xiPqfcIQb08e46nUtnUC11L0jdQv1ZXmdQVgPliRRKEiNGGwWXAIM5F9X6eEzhMF3EzxFQBwXsRCX/P5bU4L2VIaP3BJ9IW9Dhm4EKWAbIchIEATdkcNxZ0CN8fecDPynVnrTGtQhJl76WsRGovAs3Hv7uoquz7my77+lmaoyupXowdg+HSPa7wYbMTNvw7Vjs9hGvQg++Z/ZZ96XnLXZ42WWiLWTh07FhNbye8mr13gV5k6idMx9ID/KFilU2/q3R1DFG+vJhTjT2HtGPDo+bBr5KDtUYAW8aYTrr77sQoxxsCAPh8VGYYl16R022rmfRTvoR+hzHonOjVgPCQw/+kAmvGvI8Onho7HlmIwhlYZ7hYAADF9ZECGuWyP0LdyaN1epRsRs27ctzdbz3ACrY28Q1b2tMaAsOSSBBejh9caqX+AHrv3r2pU41FYTwE5lrCT7lYnaeOwBOsvn3SyeY6TX8i4Ro1rLVcadmCLtKly7vlMDPSBh8XLtF8HP27DLyqFb/bqIWwFw6PhfJgFZ2SuCz43GhAAPTs=
+    properties :
+     x : 147
+     y : 284
+     width : 66
+     height : 66
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Arrête l'enregistrement vidéo
+         CaméraVidéoArrête(CAM_Capture)
+        type : 18
+  -
+    name : BTN_ReprendrePhoto
+    identifier : 0x20c371334fc5a928
+    internal_properties : CAAAAAgAAAAnckTp6PTkiILH1E08zK9AwrppVdxZQDeRKdbQCtSVOzA0+XvFYwCJuKhbyhNGDEU6NTGFHNF6E4vY+dB7x2QVe4NQh+15gzbR8lpgHSBKTXR7J8B7rd4QevbVNvpfbA29irhkTUqeE3xYcw7cWIM1CIY1hiIPATbFKwvKb1cRf4HWfJCSXu14xPpm3mimyvwK2eFM28O/aTqzVpC3a78NcEyNhFb/vfIgOaNEMngsPswyJFWlHUSpr0D8xC8w8FwdSSHeL0ZCMh17ojKumY4Ay6qG8vBqHy3rDqaYsAVbkX2nlsHL2gOJPEynIWIUlgdQmK3FBoLRUAWW5KaafkTmxPdawNqoQGnu51gBXlCRWA34cbFQfn/EMxA13OOvbJo+kErmywmQyvyxYaPLnpUeoJ/V6b+Jvw6UyDZ8qn4gqkZUiM/Y26rCbgPlCTPRyZ1M9WeG+5s3ucB9Ki/OJsufHwhjUZ5xJCf3BvfEAK2TLjV6rS8fmt54bW16mcHgi0FR8/pe56xALXplU0KvSYmdUi4sCDm3C7Uf1rm2CIueAmn7vSzToxNroD8XoApV05OsZHgcHU6emkd+QEIHH4fT373FIE/Q/pusOyo50OpFKEnzyUJ2XX4BAamwaWNLJCdGiDgme/KaOJ1qfssezzwRv4oDRo5Vq7r3RXAXKM0d/Blxh0FgAJ84axsx00XMaXr8akjBBLOdI3InRrvNYxEoMi3hFFS02MurgbE4Yg5TVWXAIsVIpePsDJqwLGOGWMg5cQGiC7aNSMS5oNIUZOs0rCruzC1X6mRQtyx/1kvOmyLi61/e/BLfar9VL0KOrmcP9qS+yfM5S1RIEZqrrvBBQ+C6tCO2BdgbaFntFclcm0H+HLZ1j7gG0n2ciK2q8LoUfYOgM2ldduvwosrJZrClk6VFwji1xYXcUbljUBtErjYqVtnnPp6noCGE1d0EPu2SoJdCTTUxQxUXferxD9awSTCSZZGDdscxPJZ3edIIGao5f8r7l8RtDIdyv/q3GQBEQjLFCh4CoFfF6FSMSuIHefpG7zwDGOt+qxS3UmB5F2LRT/20nmP6SMQyNwJTbtVRqlZkEo1Pc6k23azAC/NUmK9ZcRm2r/lxRg/5ouRQpEX7guWnftAB8QwsZB5KE48Rynj/NYzbCKMOJc1NUEGuwv2R9SBmxr/tmZiRGl0vIHhKGPeAsC2mFAZSsq6LtpRmDlBaaY9E/AQLtPeUD1spKAp0Kya+HEwm90dp/5oE+fcc9dM3XZFNjLiicOIiPy+jATL7gN5OQeRLjyZw2L/YrpcpxOSwXb7DiTEvFmlHxQnPpLnn0i2u9nCckcwmMaY75mFg7EYOS3Sz3wF63mCMprXDozC5ygpf4R+8tFNUTOBVbxG0PLvjGJS+ZCKbgkVagf/5UhpLbhHgR77DFcVorKiu29hWymxHJcK/yDkw9rzd+I+7zz+xeEM9byHjZO+JqLwIayTGVHmadjFVATT8ioQ4r2LwkFsUWF950PeE8XftzqpWUnZ/V+XbJXmB4AVtXFmmQLsMD7dtVToVtsgkabV2Q0et5OruDxSRtYDUF3zqWgRaUUzIfLExpWcSRSGaECJToIyefOJMozP0wwrj3QS+wpDRZD5PvvKENDu8iRgn487R8hjZXZDmFJeT6dQyI4/cQl831afQc5WRLqqLgT5D+mUUX6mNNZq3s6zuw7bkI5RGUbrcZdzmtdlhpSMUASjb
+    properties :
+     x : 14
+     y : 303
+     width : 160
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Ignore la photo prise
+         fSupprime(gsChemin)
+         gsChemin = ""
+         // Ignore l'aperçu de la photo prise
+         IMG_Aperçu = ""
+         MaFenêtre..Plan	= PLAN_Capture_Photo
+         // Met à jour l'affichage
+         DemandeMiseAJourUI()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_OK
+    identifier : 0x20c371384fc7bcd0
+    internal_properties : CAAAAAgAAAAHUqRzOMA9S0dKJgZKcoe1HFDx9zA1a01tSFqZ+dzXZKMLiIb1gPrxsLuhHTpzi5o0O6b18dUXwHnT1nkIEm4tXFybbkI0jCpVWKQ6nbEzYTvT2KJFTUTONJ1S0PgOupd8nzbVK+vnCIDZ3sDDFLYYFulk4afPbev7YbgiG7OgpM9Drbjs4c7dI7G8rmiQp+kUZ+N96V8UtPv85WBTXiW3bPoOHLZlcWBOBhMzcbDMUCuDknxYKdDkXsbW9oOFWBAgiL7jzL2IsQ1GK0b8PiBziwgDsmly8g3RfT3ejyyR3LMfBphnPr9kVxFKC9Et3tXMlcwyt48AZZMqV1if5vsATZe66zDJrzyhf4yrpttDBM0Bxb4BMPUmLVEIaXYwqha0pTesKBOlKLm70HMymCjyRx55mQ8BsSXrB16pN/Ram9nd+HIPGrYA+WyoRR0ZHELP4YGFnyiMKw+JaNY67HYyHz5TUHetZnewNq0CoiOfm9YCywUdZHeRRag8UNDDC4t/F711rr5D+kpMfRmMuV/1rMXbvwYdpHwcLB63YiqrcydKoK5F755jSLwuI8nBTd0vhpGNJjBHOl2JIX9JX2GFxQTns5inhuJESli1JNdxUxSLFgcKHNTZXzZ5B29ktstzXBTYla7+EJKc5X2rM1nyyOTqWIyshiBcqKYLcYj3bTWjNqz6zRum8J/pGqvm8tezd/uvrFQ1Rw1WviQQ3YnnBumfMlZRDaSMsJzjj4On+7BDGErhCknKx9pd2ls0lgbJ2J849CsdneUQM1I96sFefX8Udv/MVp6M5xLYr+Ev520LSDeUB54ma9FVQ+mDSHA9j5aPEmrdAZ7VFGPM9XG7Ta+v7u7fed7kWNiT1q2cPOOpqI7aKMcWTL7QWn0IAFo1Hen+ZxFlzBLgqfTwmdA6dTBQLEOvj7+8mPXng2rEXzh7KviJKqRv5OTonh2GL4JqNA1JcGGViLB8qsWuFbzqPY0xkdd/xIR8+eFrwLvxpmgPjSd8pe4steWJPFOmXTpGRpfWw0A6Bu3yWi6FAvN3sURXZ8H+3IQhlGNs3eoso1gqSMMiGL/Avq6d8LiiA63CFLYO1FmRSJ4M4aS/Wh9K/UCczx5doYCQVR+dEnczmoDadofXbb5V8sFrJ38q+oFtUjKUMK4eQpPIT1k+Z+0ebSw+sDWWCDVlTVPQlLcUh0rGL/PvIq4NUwn/945rjwPIgMreiix82eg7wwvj7khGrQpSjKgg2olrJ1WZw74ESv97fNpiQ1f3KorJ53xEn+V6VOVLeC9TLWF84PF0IpnEDCzJYSgG8U4/NnbmGqWd3XAJVpnc3m1D+cjqCSZ7zBxLUZlF1P5DTy44ghNcMCktYRaCRrwkl3hpaWeM+cJPRMPy3WP9dZHJ+fCebvwhRuB3rlermOn/BUMnpr4VJNwEas7C9L/LekcofGmXuxpfyiAE4Yco+egcfPGq51/8NCObYXLfleGVDdvgJ4MCYPRbom1b6Em6j+81beQFkvJ47ApISPhIL4Bl/s+b4rPPSPbMwAyqx5bVhm7AJGsNbwvu0wYOfwpiq7eKlTlfTymDVRb6nx50715mIYITp/NXucpfIzjK/BlDy/491nFVQQAVErqrVdCn/tR6BYiE1ONpNvXcl1Jl1/FcqJ8Bp5RjBnPgmAztkntXXLn08ZRW7zriP9bZSCdplHrXgx12uNzS2wjCRx5y7D6lLk5Sbz0Dv0l04Qj7
+    properties :
+     x : 187
+     y : 303
+     width : 160
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : MM_Aperçu
+    identifier : 0x20c38f465b3b23be
+    internal_properties : CAAAAAgAAABd3Psjm5T0lLZy+mC69BT14cR8RurlI0iN3IAxccvDrZDSMQevsgIcHAisd8OGo9D/c5p9CBFWBhd4c3942+gD5928v9mYIpjZuxmked25l16jIXTdwwIsYnkpAhsOs69JolorcKzd24J+Toa5kEenZRLVr9lled0DCsGWWF6OZamfHQqUpyp0QVCeTt5NeDs50vypBADMSY0E8IkIJfpSht745vzlm0wX7iBId9xd0e70EUPzIZkpFxL3/4baftTjndvTA1vbZ3XyUX5LbdBohKvSayVZjb6Ydy5AbjiEPS1MEncGly1q+E9DvLGDV+pcg/Z/s3+y+mxTzVSgeUDx+QQ9STh/+mtHXZkyl8KUDjAAy1C+27g8Tj7+AQvfjLH5M7TFYsNCYSb3jogiVduB+vJf0jBMRwso/6mV7+fKPbDZs1UEk/052epMqisGNE7+62LJnhoApuAmC/L2XdrFYgfl8zTQLtLpPpKbKpv/2RnZzMhSQy9wNWwnxI9OAX8ktvBEMLg+aUXepyQ6I+e9+W7J8Lcv+y6axokMR1q9sC+oEdE9gwkoLhUIRK9KSH0Sj8hCDGXRg/CDuLTHYVEwWBqrRUQ8LpyuFkY/2MOPUXxNl9R68PH5f2kargObDNQmbjUczHxKNsVKuQkVB35RUqARIlZmaIj55zsY2/2u3IOojh38uVzklMgftJVQ+fAdXqwR3ANamtMAo02jn6w26behQjyRle835NM8dhNQf34f055IsDD9z+4lRswBnylgAvpzPsRmpKfSYcIgM/Ync7ngGQTwuZjtvSUe5JywZibRuE8G/kYmofOz4CjISvERhVikuemh969JTxLlAZQKnPpL0OjRy520gtiGH445X+R48IDa58JXGxi6l6fMO7NTyAAlba9IUt/gM6L4WRU2ybYUD2hnm2HPrnyirzukNkubc6Ns4XdSlN6+rQmLskLX
+    properties :
+     width : 360
+     height : 288
+    type : 39
+    code_elements :
+     type_code : 97
+     p_codes :
+      -
+        type : 164
+        enabled : false
+      -
+        type : 163
+        enabled : false
+  -
+    name : BTN_ReprendreVidéo
+    identifier : 0x20c38f8b5b623221
+    internal_properties : CAAAAAgAAAD9S+2AmCTfs2L/YB6B/EH+WPeywqmETKaVYDrAdNaWi+CwKOZjgZF4eonS7CyP6jK0xFu081PZh7sloIsR8DePMEv/alGR3is8NvjgoMUOpTE1Vhy513iFxRW+AAzI080uWgLV2anSPV91QSNv3ij2FC7cqWG2hBMe4onM1021Dv6Ix7iZ8dVEAD6qZfVZf5KnMbzH9U46d7eSLAyPJmgPNIhpQ2PGuXizCHiGNVB+DWklbHZmX/xz5oylbYuMpZ7fY9zI8yoBKa7owZnPizScpx8DTMDfjJydj0VFY4hYm76sSfvO/QZMsJGje4AUudjs3BV8cJF/hFAmcu+98ucq/VNd5okrTo4nD2kMKMPXqLC2OHppiT68GoMBaaJE4Qk590YdnU9IeBDYZmWWbj+b9WS6SBvnGkMtb0JfjRn6Mz78TVDmd5PCdLT/5gGV9XsgGF1aE4YBIeVAP8eZB0ieOdHgPJQxmzF7tzZpr2a51kGieec0xk6RpUADPGHz7+GhMvprqMnXyC2eo6iYv4QcEhnLytKrtXiYSSv9SO7Ol07qrya7JEU3BUlAbJfTKR9OX2qWe66fGW3ZY1aid/HwADUn84tf9JsZ63jDYGon3YHCy3Aj2Q8+cm8wrrx9J5PvOZdAkRfLE+bvpHuqbUmZH9WcOI0vNa+2ZhHhwiVpVvFEdUzFNm3+gS2WyKtcGUV6Jl0Q7m222jdGDLI2mS15KkOTp8bE86sfZoZnqrq1Kf/DCDRszsG3SDalwvQ6QTXRR9O16ZhIxsgjP0n7qfbfENPbPkH5Nb7CXOFVVDTKccTXu0ofRe1Ua33G6jqFULNwVZdjfB91yw37dsot981nxfAqMFL1MOMae/WuJTWfNK6NKvl+Me/YSLnHlK1jV5I8LRa6/XFuhRuomm4coq72ur6jMlddXLb4SfOV9q72JU08D+6gjCwr3eW26lkPQQFPOokHo+NZ+yW3YupIlSk7hNcyiG/T7KO9RrbzmXNMj391lswtA/xUdyKc0WBZcQ6t3TnmGy7FaeKoh6uspGgUH1aneOaltSKL3Y+CNO9xt0UOR2HrNAXFv0ao1oEQ4k+2q2mZd7Fd8+sg63UE2B9lQ+nsF2/BYqeJl38RPdGuSkjTVM/AcyCLrkDLqYb9hbliyIpfUHtGXmbvVKuQEUjkkzpv/G2SNWC8K82c9xkBu+s6TSyrDHS13Es4tghUYhO0y1KtykYHWqXLRNQfo8SEIOg75dmGqcViZ7RpUbWKORq4FirLClp3asKIu2DTCVeITaT/p4ahFp2yXtu2A5wYGW+Nqq9i8imySkvVBAeMw1095NlqG2xLV7+5ML1V2tik8hVEuZ23dl9V6hIOCthoHDGFodAy+zbbSkSVhGeXctPCzvk8LV7xITEE13thV2PfmOzL+VbG1GeKQPuKQBUh1/rmMqvhY7PVCAn1RKFmy4LBylecNkYx1u6ggb5Jk1+R2bNjMobN1VJfdJVGZznKhZr+8pbobSK2wjlxsqfQhl65ZdrT10huxvBiUZRrzzuD0z4t33lVKtLnPKH7QWLDbtUK2Dvo5oh+0y5kZcm0M03fy58akzXtnzs0AuZs3mssUfVbYqgRnWhuawwD+N8qZn8cW8n6MZIDl59ifdq44RtlXfvlnD2JKfe8b99oUq5y3WLURN4Sozf957OqCIdhrpkleA4qJjxXJwxiyUvXaf12bGeWZzU67uGyFlSBhFOaWlB1wiA8KOJ8jLniTjZoHe5y
+    properties :
+     x : 14
+     y : 303
+     width : 160
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Arrête la vidéo
+         MultimédiaArrêt(MM_Aperçu)
+         // Ignore la vidéo prise
+         fSupprime(gsChemin)
+         gsChemin = ""
+         MaFenêtre..Plan =  PLAN_Capture_Vidéo
+         // Met à jour l'affichage
+         DemandeMiseAJourUI()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Aperçu
+    identifier : 0x20c38fb35b93ce9f
+    internal_properties : CAAAAAgAAAAMY+WfDlDG02b5VJF4HtHCybn+IMFNc6s1sgvHJRR2JVyGDBKwb51o3UIEQbbLRd2FHGqxzgyDmordCNdm5t4jt54RkPcGrc1uHVC0ICfAh/Rh1zxFWQrE00mHZTAA3yC3CbhYoMwBAoPeM0PSJWJ7kg3Ysf8jKY9ha/CQWfaiRBWN1CJpKZiZ396wAAbDqThfBnsYTSM/zrbW/JmHilqx5t2WETvDMC+zRGvC4xvIUpfbUV5dGI0Laj7HOFXm4FosQH1n96XXhU2qypDCCg1sCO5rXcb9kGTumMM7mCJC0YFu7D5YNTapSB9y3pD22d3fhSj7fHAdKVtxKnRp1hPrjcK86W8/Hg1S+w7WaKGNsb4dyDP0FF7gOriG75xZT3fcK7E5AMqdyEIybVoO0FEPDuGMwtfuAdiwjJySEPbHCgue6xpph1VhdnzxF/4y7vxrARuzH0P2d84ZA8ZkLSsZyFu7DeTDjg8Cw+LNt3n08CNgAL19MlRTb76uxG6Fj3PqbgBCmd4GYsUih/cLYSS+DyryK+/wZKEiUZuM2VEBnVZtJ5lCw9DJQxYtn1VK8JYQV/glhXITrLxbJVli2twREVAheQ2r0QLhMn7UneeiE1E1yIkd98Ho6uS/gidXr1rG7vvorVXQ4jU4Bt8a/gtI3FeCBHwybUf9O2t55bUOJeVrGq5/0lMpm4caQW5YbzwmlT1+GXQ8aFU+jDwBaYm+OUoHiixJsDOWC2sbaWGLTKalbLy9803QBSY//LLjQv3QNsuOxKktlKmYSQvp+elT1i95H++xdidhVqEngzBWCP6eapaTr3VSw0vJEzmY0W+JoWF+wf/5N1vKcMcw6Yi30kiSM0Nw69B65ddN7W7OD0JnQuJ7aVuewhJ1eW7smHc7zvNEs5FKsZpnOWEsLSDciuquFeahTEmsuDe0v9yGeKWTlU4WWj9bN5uafo72uLgT8uvqZJCLf6uTCNNHcVnKOPCV+C8lGO0FEqmxkkWAmcSr5Nz4Bh+xS/1UkiG1RhdKrznqZWju94aa9I4oM3gj/Q4H1QfIsIGu4ZtWFAc8Uo5Z5qPmaglmEqSxvjCnYD2r4Gc4h/LqciOC1oOi3Q4+j1ISL+a9uJgsM9GrghRX/nAy8RWUSLqGiHmt5G/jgj0N81pup57WAjWMzexI7gc7l+zZ5HYF4NIUzoGoTX0BgURqNTzy5D+fAJQeF1wfzQrV4/JnlBtQNuHOGnG+CtCV4vmYFau0SC54yoSwxMLvDSLcViErM1AB8UZjrKBI2FuHprDJZCmLbYdzQbT12x+HC+K189NxxFOSXK7/0aT9kwKJvSFHbIh6VdTrBlSN8gCRqkcaVTW0BSpNHhVZ1Iqz7zZ2hvSekuFNjlKohfhuSS02C9HTc9rqZXfoSQuk+hi2ky4vuYbL9AkxJoZWCW5jPtw/0MHKSDQNpoFqGoMg2GFkUAMI1r20cGDNCNzk4tlSn/t0M9vLdg4CYMG3MO8j6dRQa4PU8Dc3gG45/CArL9LM3N/JIF7l0B9Ea1gqwKjdx9U9iU06FJaHhBhT9xLyBA6lT+5AZCURTqXXAdjQlADfzAOGi6Z+J/XADc3EHmk1a0KPs6cY9CyGVb5gWGH2nmya6LG3QzYslfSwCg5D/Gqs2HaM+cp8msaRTGxoAwA=
+    properties :
+     width : 360
+     height : 288
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Zoom100
+    identifier : 0x20c392075e26e49c
+    internal_properties : CAAAAAgAAABvu3CwHTF+JsDQyKVt3Q8riSdrilSIAkewrkpBTT4tezO4/9idwm8+jhBdijjWXu5jkI9obORh1m1x1ZZ0WmQ1tnJG5DKRBvQFV9narr75cNvB6uEYIZllK8Oyc0OCOWYFnQPdMUjDVZvMU5SbZUKK3vGTOuxvaRAGrTPzbLacxsv8DUHUzdiaTrzjqCYVsmTI3rlfiCcXw8fP890IrxxvaKfw5FZrv/nqZalzJptsoFzMLLdJtMqwRO1PRHQpJoDb8VewhQQNhGJCYKNI9hau8C3ORUgAyk2/VqdxK9UEJRXpoxYUfdyzOYEBjEB9BYFg1MCCz5/A14Ek71C+7IUmf4HxJgGuc7sXTaLIk/KNqfl7INLWParSWuxwF3bXb7yIclxZ2C9MAGIQHQDS8KMVWc/le8MxUxE78kFy0J7L6Ssq8OueyfOcpAD4r8Ofg0+oa1EG0Ezf2hrKVuTKu5JTHRuf3fnj7HYLdT8jrSlLCXiDD8rw5gORZRLN3MEggsfhJRUftQok+DP1TEO/FuJrfUhetx3aOp5E09cHE0a2WrCfD6rCpohSEHSIjlczOu8/zPMxze29RngAXxhkI76IFwskbWGRwIu8UX34aEIL2/9yeYSHIZ/CgeHpoOBDu1H/C1gDN9Ujzds+KbDcdWWngi7lIUiI39YyLji5JubEf61qs0dfzu5J4oiwCmUiW9iOmy6/feqgiVgwpG8ztyGtNvrNUEmd/oMrjVfjKFWUkV0CL/+HOKxEdzxlMWsu4VlArTi1lSZRSruGqwfBrVIAHAxB9twpoqpv0dszrhBJlDTmeJiFoOZiJU+s8OrL0m/EHgkjbmPkzBVGTPmWX+Zatn0MaJHstk7lDaTs+rZWNEuAR80jx1qTOhBQTemm1pWG4sGfMhO3b9K3stn5605zLhWkVpjspMzkqUXD1AgfI7WFH0oUVC5VPPaVl7iqRZafeqlkG3abHV4T5YTM/A+BpmdG7z4TYubSekKSEcUYWA5duUf5OJ4JATyqoe6BZ+n+eamWcOTGSBFjpYS+zKwvUc5aFAG52n2k19kinFuGAV4WxIPNwL9lOEgl7fgG0FzpxgQP7FkHMVLplf3a3nvNcLb59a4VrWLmDUb6kdxUpvLKi4kL8JQU6bABztV21KcdOVKvJInpBK8saPHeuYoDMXHzHPhUqz6bVY97CR8XoJTCtXBH7Zvy8e7xauG/nz7H3Xw3XLTswfGf6jivvQvt9M63CzAF/URmYuYt0AS6GPd+XtNPUlA9xmMw4VH604sGOON+fxeJzsKwxE/gADZaPkmDM3LSpZaGKlWSQ0PWSBTMazpS6JE5YoPLCCWrSuyYkCBwIQt0nbSjwbYZlxddAvMK9+SwGw5Yjnn/Vruv5QGd+AK71gNGETO2M2rcdsQMy6qVTU2evh/AOrpQYQpCDrDr3PVBfKrM+3nqN6Dtc7LHY7ZqIgMBxn81Nqw7yakCmEj29Gr5DDbzerkHBAuvp3TC7pTJ/cISsm9iMkNi9qvIyHlaUBo2HgJ9fNhZs/0bvpoO9sveJIOHX2aqamQrkd6BBHKqxniRslqN4yM5xdkpn8I3MBJ+0LEVetasyHMiuOtW1NSkcbKzRoopWRI+1N4SF6f0bcGW8E/M/ZoZHKGbdHgbdGyYIfDfZ24nDr9XnIcIA5uj0B+26xt31L43vQbXCyti42sZYEkHDhsB/qBohL3YLSJyi5Hhcn2d770ycVjsNL/TK43gs9eE9mZqf8izNFp4gMC1f6FJZ8Xhp9gP6r97j4yoJgVYBvzVJTLdl5TZen/skC6tBPZWW2G4wGAHI/+6ZmwxswJYBaPBbE9RP3pNi3YIWnZISOrXbfiE3ViYsJa5Icn2ATCf+XErr6j9PNT/
+    properties :
+     x : 100
+     y : 222
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         global
+         	// Le libellé du bouton contient la valeur du zoom souhaité
+         	soit rValeurZoomBouton = val(MonChamp..Libellé)
+         	dbgAssertion(rValeurZoomBouton>0.0, "Le libellé doit indiquer une valeur de zoom positive")
+         	si rValeurZoomBouton<=0.0 ALORS RETOUR
+         	
+         	// Ajoute le traitement permettant de marquer le bouton comme enfoncé si la valeur de zoom correspond au zoom courant
+         	LOCAL 
+         	ChampZoom est un champ <- monchamp
+         	MaFenêtre..Traitement[trtDemandeMiseAJour]+=DemandeMAJUI_BoutonZoom
+         	PROCÉDURE INTERNE DemandeMAJUI_BoutonZoom()
+         		// Retour haptique
+         		RetourHaptique()
+         		// Le bouton sera enfoncé si la valeur du zoom correspond à sa valeur
+         		ChampZoom..Enfoncé = (CAM_Capture..Zoom=rValeurZoomBouton)
+         	FIN
+        type : 14
+      -
+        code : |1+
+         // Modifie le zoom
+         ModifieZoom(rValeurZoomBouton)
+         DemandeMiseAJourUI()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Zoom200
+    identifier : 0x20c392505e3102ce
+    internal_properties : CAAAAAgAAABhaiqhYUpQlG1DIietjhK1K5NJSqLNIZK5vTjSoKY5lw9ctA3jiSByG0AtOPb/SLLcVcoiQcpWg4Jafezb649s+zIozUaavFcdbz1rBqec2ajxTp8dPtHk5BzqpYUpVqkEd72hbPiTcfUljrYa4l5rlfs+tjqNL+rOAwpSieFtKcWMhOMIjF6CalZ/S6V/wztjmPxoOl0uCICV5ecBBkPhZgam22BKw+Gand39MDKmalLZn41uYjkqRg2Tu0bdO1VJmWjKo5LIhp5yGM5FbxWt4BDdFsrmy+1yojDc12lCoTwfiyyJydXy/xE7XjsxpLz0nz1Fq2ceZXt674yaSymeDTSc24oJeVfmSLHgzOyjplKkQwlC8ElwSkXiqS6uCY/5Ppy4at+aLU6wN8/iECe2Km4K71Ol1VUuEfEmgM+hx/SEEUvjf+rKem+nOIohIQP8orL7+KfpwqBrIvEOn5vxYiRJpe00xJJ4xQ3eR5xa9DuNwmAgMaFcocpi8rX7UQpTFBzDuru8wWIvr4Fmc19VHzqa+WMBE/C3/Li7v9allN/isJoIcohd+TETWNs9eH7Y8npmUmyAOwBNKiQmKQ9sWRpIDPDdDJhOTfNeTgg5k0Vc0Poh7GAzn6OM4rUAqixAXqNjdJml9xrN/VSUl1hPq34NWtsdP/z1c2VEGeyTBmPoPXi/aYnY6MpT0VIS7o6OQOydJowLlD7RG0oUZYWWE/vzJF2aMF7DezH/NaiQQnAFpplgv0OvvXffAuhhBBeQrw976/QiFjfanyXDUPMpsK5KJBPG2sfu0tQ+zkZ3c3WwrshZ3JdTi4GHCeXzv5kcxSJtsGmAGf2YVDoYlnUpouUFxCYSQCDJbSBS8OMaWTjTs/kFrUyRSA6sljuAlRQENfWk3U6wMrEFExAeKA2NkFrm/OoMIu4j59LO6U+SgIA6pr4TD5lt/9ZjxwDDd+UmJDPEbnLtIa6tkjWtFqPVOwkL3P10CpCTHKff3Rqz57zBAs++GTgG4KVcM21mtUA3W2F5kjc0tWzk0KSjKarsOJmwf1i302ajjq6hpHCm2QepQ4Jof1B7wc5kn2iHHen7ciYuXmasPz4wZxNjBWCmSrezGvXwqze8Gv1AWnHrvFbnAz4efdymHbOGSaViY8JyBR+DfY4nIZA8pIrp0E3CEAkVsWgjr8QSua5G+WH/uRKv7ecUFWskm/oF7K8lIO7kxJqYq+CF+wrD/74KUvHXlglGHaNufXVtM6XFxUrvxXhpRg1OJepI/SdRVQ+QRLjTHjnSnUDR/TtWqQH3cw7bBjx5cO/s9IxZ7ftIB3YBdFO3BZiKc6ZcRzfLDh/JbxXdMIPNPJf3VTBHtzhqNBISMwlJCXSckNPk4CNeBtS4RRQJeROX8K6WFPNGW2JVOLiFWTOrpQwOkUjW+Mt4F/r9mLTFMJ3LlRV81PavGJBqo7n+kuZ1G1RlMOOhtuOu+CC5nKo715URE3UOarh6yIrHOy+3xNRh3VbRViiApcbrgb4TGa9ZheLl84G65XfDN6v3zmxRr1zVD8H/V1NawLnMVPLnOU+4ZhvXcuyEO1gBmG+ezGZjaEDjai7NBSxt6Ac71TMrTsI8pfbr+EAytZWUzhYm4+rn4y3X8LENfM0+m2oX3qW//xhlwZzF14zseFxUOe7HMroBMrl2d7VsI4B9qNMua5bL1nCnu0ALTP6O+H6bihmFJwYv5uxA90pk6+k97Uk6uTUxjFzT2ix5/ASQ7nxY9WAnoVw1bhEKCL9Q216Mc+JwV0zw/brV9Ndr1TywOlDgyHdnW62DvRr5ppAf9/cp1QljnIOAdApXzUMnoa7utdDwODMaWpvVm3AYHP98MvqqxDp2sgmJ0/vMZeJ05Q==
+    properties :
+     x : 156
+     y : 222
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         GLOBAL
+         	// Le libellé du bouton contient la valeur du zoom souhaité
+         	soit rValeurZoomBouton = val(MonChamp..Libellé)
+         	dbgAssertion(rValeurZoomBouton>0.0, "Le libellé doit indiquer une valeur de zoom positive")
+         	SI rValeurZoomBouton<=0.0 ALORS RETOUR
+         
+         // Ajoute le traitement permettant de marquer le bouton comme enfoncé si la valeur de zoom correspond au zoom courant
+         LOCAL 
+         	ChampZoom est un champ <- monchamp
+         	MaFenêtre..Traitement[trtDemandeMiseAJour]+=DemandeMAJUI_BoutonZoom
+         	PROCÉDURE INTERNE DemandeMAJUI_BoutonZoom()
+         		// Retour haptique
+         		RetourHaptique()
+         		// Le bouton sera enfoncé si la valeur du zoom correspond à sa valeur
+         		ChampZoom..Enfoncé = (CAM_Capture..Zoom=rValeurZoomBouton)
+         	FIN
+        type : 14
+      -
+        code : |1-
+         // Modifie le zoom
+         ModifieZoom(rValeurZoomBouton)
+         DemandeMiseAJourUI()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Zoom400
+    identifier : 0x20c392525e380acd
+    internal_properties : CAAAAAgAAACUf58g7uFVZ7s0q9z8Mbh4idywgOPc2Xyc40rCrx1ce4aoGsU4AVxYfJmCY13P719rjrB2IDxAWsFa886TBHGcIAI9q5kHu+BhXxG2ijrkRjnlldeH7UZ+ENg9UWHdm8DrDA4ztqrJt1Y6373FL2y/uiPcvKXXSnQaNqCMIPSOeQhJ0Lc2koKWRSXv/2F14qa0TSJiF0nafzvJp1dIM6sKXwju5Dy83TNrL55lI89QVkJ7YQvonBmB0JTmiueAihm5FWQdDuoOpC3mglbJXpjtyv2dW3WNOkkVmF/NdU0Q0Y1OecfQwdf/R3fUuvi6KS+2PmWuNoakmWoNL2eW3oPddyHlH80zDrHBopBinxuDFQ+f9hx044kspaYNWyMF/d4EoKjbcWKmYhc48/dh900oMgrE+ufAtjK7nKV6rowHQ7IcSHXi+zEbM/0GWGmLsTs09r3vZLQXg89exxY5GebuS6n+3YKriTk66WCEAktxhkN35QjCyAptCnjRAKp0dZog2/R/t7x92S0ObinbKVGgIiX/bnME7HFDHSX69y2NlLjng8z/wB51fhNgB4zjsoPSOTeStWjLcFUyo7rK/pphklGFmdPqwuIxbK5JqqqS7+q3QBdSvQ2ZUAKxb242wmlCDTrjZ65i+JcQz75azUEVWfgFCJs8KREeCaW/NdFf4OwhTEXt378b6Qjf5oZMdbzZf/8I/RkozOrE3Kj12m8zFFJi3T9JmQbvZ3X51Oa7nE73x0EuYq07/eV7lfTd7K+NuhsvXlS8tWS4Hf+l7MjWF67A3APb47lihMScpx7LT+V3MHmjmAPcbi9sv61QEl/guMsQlN+Ie2L8yk0ALTqIONfvZL4bbe7RLDXxVHkFgv604Rp+2hbi9sA7BEhww5QS8mRlh/c/fLW5l/K8/yZbJe6cY1x2WRHOsQ3w17ZB2irUhmm0KGeCoQOWczCrn6gD0KwCUHG0V3pyofSwgNyS6N7Sx3kqhUUSRvEyF38GE/QG3lWkUvizjQ4O+hxlbCvom9IF5o4dUCo8kB7lUpRV+Z4AcH/WowQAQCx/YCk3O02jyXRBAF+c1lcGbjsWMI7/xRziegbs95VII22Ulrf6f24UofT+wR+sLvP/eXYzrE4vDveSj+Zo93Xz2eUGn9xAEaz2TmCtCyVWXur9qv+iGkhUyR/0r6tv0u4XYY0HjR5IhRn7LgXDgm21oiZZRzDzvmg5DSGfqbyj72BcB9xC1mvfOV84Sfd5eHw25inlg+DeEwUHNEtzDLXe0oxlkRkMi+SntX/uGGaleA/RQBc8XMi2gKf0PkOI36Is7/NwSaC1FJ1439aCiNoO08e7FXtjqA4B2qAmpnltbbDIFVw+Q1CzLYgrq2WQCNEu3W7SKDrYsLiyZpxDYg9I50LGa18CBEqLLVQ+kU7On3ZiuvUTz5LKvEPuLLs8tEpY8YoIUJsDuMpA0b/kq8oKc4GSLbLO0M38mv3YfZcu31dpebgacPJjtqhacK0Q9uWLob5dc/rBjCxIT1QUfAOGHArxC5986Wg1hKdlWR8wKf88CHZn+rqzz1H/azcoB8pgSmj7GkbrcbE8kTMDy8AdukMO6XmaSLQTi7pz+vrYa8WcOJQ3G18AkmRGEdJ0zJU/4D9GQRCNzlbX68d63wb/ZVA3R83UioWd37+sL3P7ZFDuja4+uOrw/8bf2hNnW6iR5K4uOebv6cGsqEnrMlovkhoYi/Nm1kh5rr6kwU0R0VgyvOQGQPyYFijYQkow+pvaownmPCfpTWZHSlJbuYAVqkESQHAwxSQez6fCi2F9yBahbeaBR1mLQjhy4S5blG2dZX7xSlmmY2ZIVakTV6c2/o1aboWPP/4oApRAlnoKPI5N5G2BkA==
+    properties :
+     x : 212
+     y : 222
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         GLOBAL
+         	// Le libellé du bouton contient la valeur du zoom souhaité
+         	soit rValeurZoomBouton = val(MonChamp..Libellé)
+         	dbgAssertion(rValeurZoomBouton>0.0, "Le libellé doit indiquer une valeur de zoom positive")
+         	SI rValeurZoomBouton<=0.0 ALORS RETOUR
+         
+         // Ajoute le traitement permettant de marquer le bouton comme enfoncé si la valeur de zoom correspond au zoom courant
+         LOCAL 
+         	ChampZoom est un champ <- monchamp
+         	MaFenêtre..Traitement[trtDemandeMiseAJour]+=DemandeMAJUI_BoutonZoom
+         	PROCÉDURE INTERNE DemandeMAJUI_BoutonZoom()
+         		// Retour haptique
+         		RetourHaptique()
+         		// Le bouton sera enfoncé si la valeur du zoom correspond à sa valeur
+         		ChampZoom..Enfoncé = (CAM_Capture..Zoom=rValeurZoomBouton)
+         	FIN
+        type : 14
+      -
+        code : |1-
+         // Modifie le zoom
+         ModifieZoom(rValeurZoomBouton)
+         DemandeMiseAJourUI()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : CAM_Capture
+    identifier : 0x20c390795c65d21b
+    internal_properties : CAAAAAgAAADTBav3pzDAK1EaWCPz72QeaJW0/mHp0RZeRfSMZofyi+dRE1ZC2hvudxB/8O6HzMokBawlXK91ep4gLNePiwUpyp1A/JuYCpGg0me8oJKmZ29py19pVZM+Whke5E+h0/TvfHJDKFqhNhpJ7Xl79iX5iKQ7Mb1O25wLMGyPLjTAApW6MklwhaQRAbjwkneDyhOVoCPt1Lwj1aYz/3wZcf60Pja4KAponU6ymt89ALrgN7vT3x31MBdGwUU2/uVSvoJ1JxSk/L5VQSA3Zv5lnKN+xy1ApzGI54gdMD4O0L5r7VdZ//HdpfyomHwqI1RhdipLNMe2+NQdHOZ40MKogBWEtWVjVQn2H7n66+YP63FKH712xelxj24Brw9INfhPB3cm4XjzuG1rNJRitbW/fbzxXXyZnFjSjazW3cxSlA9rJTxnbM4+lReY3VLaWRwJlv1fscmwSLBc1Xrz7vn+s70ahOdk2gyL5aRiuFA6qj4CAVkGnfW8iAaylXJPtxYy/9q83Rk4q6jnBX6+Q1Upm0Fa86g/1cJ8Vp8StHxh2y4hSRV9iGofwPWTeEkl1Hovzodx2NXzuuoPM5LkpssXoC0wiYdYoJRdWdAOWs1xQ4TUedqbhIeR55Hwjqgt53kGDn58c1QLA+gYUNqcPOKeuPfnT4eNlIe945SHBgczSNo0bInFV6GrhHqgkNc1adoJKAxRVdeELT5wWqnGw68/Zk/qfQ3QW+DwKExbBCpo22pEdBOjyibFei+SMZHBTJHEszZ3x4dNmLSWeMAdhsLB2Ki/2MwK3gHFYUS0K5qsyA==
+    properties :
+     width : 360
+     height : 360
+    type : 24
+    code_elements :
+     type_code : 37
+     p_codes :
+      -
+        code : |1+
+         // Met à jour l'UI avec le nouveau zoom demandé
+         ModifieZoom(Arrondi(CAM_Capture..zoom,1))
+         DemandeMiseAJourUI()
+        type : 297
+      -
+        type : 237
+        enabled : false
+  -
+    name : IMG_FlashOff
+    identifier : 0x20ec1d0005bdb3bd
+    internal_properties : CAAAAAgAAADBegtMNfz6us7SQlRFO+kdmBdaePz+3shOAD5HRPp4ObrWL+A5BoEirIyod/H7inXytJ3IH1qANTSqNOpqJjDSgSqor+/TelGGMG93+j+o74EfrlaNP26LwQfefJAXP2nCXmK33ic62moH8uip9JZqlDB9dLK3DQm2de7Dd0jrWekSCJ04AXBgGLu9Q9Fs7aBYBAVPC6mVQk0QZCVoLWFVBlkhDCwUy7Tz1ZlarTLyYJO91dAqJGRi6tEIaIZRkKtPRH8ycHuZxGFoptT7NsEGJUoektX9e2YzeNuT0EGik4ETjv4vCCDRhOn/rvH/D/3pYD41iZzJ4pP/Y+uonx9BM6YHJTo9QDjCYVWtXw4oY3tPZf80eSPuJg2mTDN/r2NaeGA4Gq0Md/GQH+dvJzP4/2kY98RMtHetJ/sAh/2pwm0s4rTs6sgub2ohJ0dzFYns69d6NpvR+8+2fZrdtfizosNFd+plpMBzTMb1SRy+GC0CpiNWnitXAEA2OSlFXB4k6kEqY8ujnJxTzgsbiB7nOQja8PADZwzLZI0FTnTAJKxPEpbIHa0qTLSZXDlpviR7nSXqOse5FE4GbqDeREBydVJHLjNVdVCi87avwz2FUyf5EH3s6uN+7ilmYXHDldDEACYt/AasT4XvqeCkbq0TroHBVuOV5/hi1xU/f3VBMoIwjGHhaTVRLhel5ZMlY8DcPlg+tAIpkyyroyfHhZews2Cn4vBNdkHqacbmJyJ2BM3nIdyk39vpCZz2noWLEktkxuM+xR2GLBzd/G801Vz+awvevWoi0fWnHceJoZ6WGc7UfrS9NtYpuqUWImfgfu1E65iowcJXYFiZefaZxkSdFoENIUOuuuMGgmYGGm5Icwv6vYiEmSQdFy0XNlNc4yb6EFcAEU7O3e3mFDr4S7QXNXcYlNQDstR9ijyJD/xfTXAoQH7Ti+g5gCrfRoIKKW4nZMUgmw1lw8pJUZobRGcD4FjBLXaFThBeYNQBUFNqiuZVTiida5NAU7VDfMhkxo0pkxxMYHMKpXYlDZRgIjzx/94HWKLMvEcxs18LeuUyJoyGbp/YOSTJPmmA94z7gZ6e2bbeqPHfg0KIkSgedgFAt/TebImEGIMjWBbUSUBEqgiOicobGB5T+C03lATRZN6TlOJu6VtN2FptLmN/XJsb0V/cuDNKayEc1jwWNaSFZ83GhRQU1MdytMndjYFtzQ1NxPaMFQfMQJYA/bDrG68hVSLCuddQbdrhNF5RlSqgn/Vu80ULe+YiYUXlkXwReP4O2RvSFBccwCsPeU4ZuL8naQE9RBYIWQeZnLtU4ISpiu0BabDj2x0SmKzBWcDPAGlu3vy6JuzKJxqsysukkXe9a8qjVwCRSnwA5XY2IzZLWhRonksFTDAE+QWCIjIkddZMN+f9rVY6+uq4yxVcxd/aZnEcMJKWHGudCg3ly79nUHVG+DI9hTt9bWgkQ8dizuIhU96NcXCT6PGXyhmm/HCvm3GUZ9JdaOASiXN2FnUpr48VKVIdu7ld7qmN4l/4BTqKKi3yzCb1/xR8+/HO4WILVeKWsKHeKIEZB4bXZMy4pgINcRp2Yz+kWLOmECIKFbRCEj+xWI1Z+rQwRxQHWCTwB6ogIJOkTwfRWe6euZ2K09dO8vjO5IlPYG6IY6ZrU29pzgd20+KmBm4lFsaHlNrsjqExHbiqui0cms262uFzOGaqwxmxNSGcexG2CPenNKgzOk3VtYxdNm7KC0vNW9BHR2lFLciyxpjAVSZbFrmhLobXaKubmnKtkdIOLTK+thoneGRQ0IQ8HXjB7/fD3KLqueBZyENiBNMOkvda1iDoStx11E28alZOb7Z+mMamPWRShidOxxMBOSoeYaBbFvVrrL3Xn5eU9EBgEFSF99NWgwD52ZX3qEJ1cP+NHro=
+    properties :
+     x : -225
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_FlashOn
+    identifier : 0x20ec1d0b05c6dd9b
+    internal_properties : CAAAAAgAAAB+S3zMxNr0VeHNOYKCJ9h+D37iz21o1p2J5PdFcj5PSqEHT9dgjmHpDTs6A2rbSO+zmYxr5/2ZjWmGbgKG0Y+5vqfyyOrhySx+kBpwBFLTf/L/pbS+xs3DvVkiO7wFYQw5XOjzQmvzBFwFmDHzmPamT7ufqIy/nRKoiyRaYWZoNovz9flxJ/P3JzA/KvyRfDTbo9TjyzVJ0Cgdx80mGZppDR9lhHdGL5LJ+K0q5XNpG6OK13gWtfeHTcRmYoGc1Ti1Lso51S4CXSvIpoiEf6BGdSO8VRUf3Fg5gYjnWX/lWMQsb594SxSYiZjKKAEWYrG11IOUC2xxUkwe8Ad2CkIGk91HE5BZcmUvOfcRtIAVF5Dwyr06R1WOW6upPe8ILKY0VJzRD0xzi3SWs2mGJRkx5a/vW5jiQtMo1BJt3UfrsG1GpEJiArY9IzWlRg3ZxNQ0Es+e7ZQDtAC0LOidr+gAJ/nCCWgeExC24urUwVgRGURMNNZz9S72U6abQu09OeJDcAIdxMn2f7IURxOgOwebp9pOhJLlUddcf3w0oUadUMIW6IspOQC1cC9mbQFWKGPGzrZuhLpxFyfmWT5F+LNWVR6OzTemiprNLaMqf0eBK3wWTs9MD/eQywnietoUf+Yb6ZRtS4Fz0afJQFwXQ4kCvjAc/LUOraZn3cONsYc8pr2Oc19NzMoD4ogBkwdLN+uDEBVmTCXV/Q5/69b0E4Ci2SRpJdz1uAXdZMg98WQqma1aNDSN+Pfaixh1o5bMUgL3BtnQH3jEr3vzKVCQ+zWCFQkLex9PQ32DpnfgKhnZHVyJ/sKes2oUH+p0mE9C8I0dqfz+fM3t39FimAx7KRF7PRpK5gbZYq9Hy6z7bElo/f4wp1dh/ClHwEeM8kFcEbFWBzcZvzHt1UW/0CquIZM3Lu9JkkG/UeFbKI72tFElIkW1wt85jGgfDZV6GBxXXMW0+faeqXSdHAEek0FvISqwZY7qqfJNz0an58ZbP08kHpqaf0o2QloIJqEWxCyDs7hTufEuoNunbDrSddraOnf3BfxxvoNsE3lPMEPNGm7MWGUPMEz6NFW84SGj0mM4MPOejbi/1nX+I/bLZwQEJ8teZTsmhd54lTEx2fvAOu9v1bBeJoAuZLsc0NVtS1P3tJEcIa31iskuKvPkflqxV7gCGfhCNZVNW4TyYoLbamy5UTBKDDjUDOeUEQGR63APnnEOM0Jow34HaVrg/mqx7f/sfGK0Cs2heb/bjzOGBKZ/7t0wJiBOVhYyiX1hlXV6hUwkcsz+vdAbrwcM6YhdM0rpJRDv+z+hjObl7vinMC7XH0rSt9GREPHC46uPPSWU91iVF7hu6e4segV8iY0R6uihZBzPB2aAULAMK4u3wyPBAru1Wl4wqKg/8vxinOBFbPhLm7AKjfLun4qwbtz5cBTyjT/K1pSPUFnnbQhwV8lDJomEpROMGsKaE6tTHGa5LYCMj9Ks/iVzNwxH85ot2Thu4MgbbyOzoR3UWmBzkIa3mh917tX02qYRE2jsyKnsaWx3WtM72jnYNkhIBckY1CFGAXABw4F0sROd4Ml3s4qM2qvW84g7qzzFUEqD6x9HiaQJUtb8Eb/CyopcV2xUdR5JTu0NKirUvl7RV7NhWlalKrUIjlNVB20XoQA3ypleosa3T0ON7INxKWAayTXfKan1Yl6VfUVlbUKuxS2Jjc6xMVcv6YE5JVgVM/FWgPzysA8wMWTGJHy/vV+j7C+WrKdxyx14qXl/DTbsqvxpvqif7lv5etg82DUdkKVKvr1s3UkucUltMB6nmBVEiCgtTPnf4bEajeWKlad1SLReMgrhUkuVoHauZVFDUkw5KwCcV25pvdvpQr80o0cwMhwyDiu+0cqgadKkaOnDFQa18x6rr1e2R/GibJFGjCSUBPjEWeo=
+    properties :
+     x : -188
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_FlashAuto
+    identifier : 0x20ec1d1705cf0c6c
+    internal_properties : CAAAAAgAAABwCDlWUkJZ5AdinflBBc/VTYCQFkgV/ihAqACQQxD9r1U3E5xqtYfLSaqETzXGgeDcfvuTTFoHZq770fNrONcMl83pERcWnBqcV/atZSFGMaMWX+ry28WlwjYDqi0AuDkQTxhrsnBNOrKPahs3MpuWpn5Pbz2ktIuduEQyfeBEJpM8XL4vmbnRQlTvvzgbp7oAkUsI7a7pyEK6lkfrky/qxjVn8g9o+lhyUn+RoVpJwUHK2I8Yf2VYPZauf/AAquaKeZGNSQIzCzbneBM86HY6w0eWvsCaWHZ6ZzfwPEEnNYSqj8kfXYwhE2LDFXcxjhI0TATqMb/GDicO98a/XQtvZ4/0pYoCTExujNL1379zWmwxRME7QaZ/T7APal44nRolYXiHQV9ofDpjHGqS42WUuRWBe4aHtUGoaFfCizaVDXIdRuoTIFhWxh3kxSBu6bpw7akQUhj2XrJY9gBHbGc8Dio9C/YW0GFbOLeziGSYE6vLTxTf5KV0j7UFccixwXfwlt/HVy0wzYeMDVWPWZKTl41Blx6m8kUql8+sdqNEiduiKmLwDefh/Qwo2tkPVvTfiVtcRNw4BD9cNz4BJrpct0JpEUUQ7Kz/BDHMA1ih6xKQOjbqECHxQuaE6jjlQlnRSZG9KGWUKodnM6ISmcNANBvDV45aaVrq0qCJ3MAky/yWNw1GbwMtclSD5SD2USUsIO9lkfkYeeYMqxYtt1jy6ds4eUwboyaHFPTXdBjovEnB6TWCzg2h1Pe7vR9cMw92j2cvFbg8Ufmv36KuMnhJUvZFJo70glj5beyA1mSJwivE31cdrd5oGAhCYSQEsjGBFKDid6Z5G2tjuRKJCh4//oGq9DY7dnpUxevo0nRnxCzIzPCWZi1B/GYI070n1hhUn/eDAQNddirGpQLV4W7gWrS+AhCvsvwh9iLLJLCHeyBsmenNcqx4r4i0ef1bmGdj3MH1d15eDmatDP8w2IPkpSHMnIHN3oldySE9utuXbGLXoZlO+xBdn85rTo6kI+q2M2rgvOFBmXikkj2+VjgeGOtNemRIK5QOg5CsuHL8B9KfDhWjDlc+RPTt/T9Y1yGOR1mkfuLbPcKr5s0vH5sB6ADUBViibz09RNxqAVzpEB8TjMWzo4Uq8sI0w0K91z7uBc+7H/BStKh1d9DwjVjvoTI/e+IfkNT7M3m/Mrvid3pGobgehGAXCg+JpQOrMECOpoSLd9B4rXb7jzYAjD3ng8HlCSCVO0ki0cHzoCW+eDfaKd51pkpfYLSNXvyf/NSemDiqHrNqi7V/Wbvfoqlw/Ps4vkkYawjUM0KYziy29O25+kxrF3hyMR202bQPS8xobHWz+2MBXDTdOcx8Kg7sDOsz7Kwx9CfbNIzfXq/fUzg0rk3xzomTIsR+B3MOvVm6yw58FMMgA8PVV5Wb9GpHTxU92qqcy/4o7oEmgczDthABXnXqOLrZHNdI7H03Kwu5b5XWU98rcM7Xk5bCnJeYvCQd6eB3+a7SJf66H7Sk+SDGqUUhXBw3F8YWr38aRxNW5NuXrkzIShKFzZVNfk5Cxw5Ya9MdDYReY6xV42U7PqBEhdU3r39srdTThuZCiPXR8Yyg8DNYiZHqW5yUkp0BbvUU2wiqqEBL8NQpUGvAp6EGs8fFQYi0z37yroPXniqhHWr3ypNKOf99coaXsC1Yjz4C6S2Dr1GkiuQp3Fs8WztvV0G8hy2fPsTw3WwpgvPJ/bjGMNO+x53S+YJNHrwL2vCTfV5IjPkL1SfwR4mXkMDHMaFMe+6CUK+67hdAZ/V4eEHx0PWsXixpjXTGKBCAtBdBP2i5eIYQL67/4J2aDcCW0qFPjBlpG6lcniHdfwEdgEaazlB1zL4wyDLiww==
+    properties :
+     x : -153
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_ZOOM
+    identifier : 0x20f14857070db0f0
+    internal_properties : CAAAAAgAAAAMR5SMR4OT8zYRCxTB8CVIc8GCyrfGxFWKu+TXvgLlE2d29Bwo+yJ//+EQRZ2lO4qWuuAWrkNB7gUDqqvFScjyQd8mN5m1BF/YQYq62eLNPnD69yT4PCLmIoYJUwCLb5otp434xjbVOlJFAmtQln0kdydODFO4CczHVwDO6c52/6TffYpsjoFCEPA/TDrPDLlatecJFp/ra/D97jMEVErES2M2TbpKNNS8ZrYQeEbdOipPHfDVIyL4VZxS0CWjeLvRH0X/628IAxD12ECY8FCmK/Wu9X5oHFTwVDeN3Q0ID+qP3RHeGbI6Mfs8jTcJwlhrLV3YOo5WF0IA5olTwk0oJtetRztoYy3eAgQElOBWv/VOnjfNskHy9Mc0ClC6u8txfo8X6OV7HfCv0L3fSNFSfDHvBW1Z8Dh18Wk6g9e+pszeC+/DmiJMlLUEQfv1UDjUc1GTTXMv6/GQcrGOQfli7ygKgn7W4w4l0/nlcVEovCBm+KEnBzGzg1Gfu1Ni8njtSWpm+1PgJ8ab6DgF5/srqsO9lho1ZBZOrEf5mlAjagGbLW2O0lyQFcilYz8r/XCicXcQTtQRT2LR6h3rXe5LUg1bu1tarU2GGInlJryw5cqRJziJPvAaKP2hh8iIpCrqqj6P6BC7uXOEnThT2yDk0DbCEH/tNsuCtvx4z0CBUpLTRZu0MUrdVPXNoyQNkUI4gVwY6jk15adD4UZQHf0+VApFbeqv66iOYK6bJOBY1SXNANdH+cQFlWSCnEs9LVnqy7v+/yygHif9Kmn7yLmNCAkmKUfW1R11Z69Bpzi5cKXVWNk+xKKDavDuOi0amfguHpZF2KtiforNaL4YXbXN/yWXvq+qI9SJiqOy86t643xuYnimzE/tMo2Arz3Czk+VxwP1CAs4IxEQlpz/kr4mqWl5tPY0CQ6lR1bGpakjnyg32k50mCEimXTPgduqSzzZc6LcYx2kqkK1LzsEnNbtKOq9YN9MI8PIZA==
+    properties :
+     x : 120
+     y : 188
+     width : 120
+     height : 23
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         global
+         	// Timer pour rendre le libellé invisible
+         	gnTimerInvisible est un entier	
+         
+         LOCAL
+         	// Valeur initial du zoom
+         	FormateLibelléZoom(CAM_Capture..Zoom, faux)
+        type : 14
+     procedures :
+      -
+        name : FormateLibelléZoom
+        internal_properties : CAAAAAgAAADaa/V/OxRssS4Cz7jPSUvuaDHW1cr3mTw1G1qUkAGQd7bD8fE3u/GkabZreVhw1insOwVgOmStDFuLGOKLKhWIDesPuNwy2+7r5CqVx1qjKM9MByrBFOO4+hQBol8yswKnJJ4lhkvq05SW/uUB
+        procedure_id : 1220837599123115882
+        type_code : 14
+        code : |1+
+         // Applique le zoom sur le champ Caméra et fait apparaitre le libellé indiquant le zoom si la valeur de zoom est différente de la valeur initiale
+         procédure FormateLibelléZoom(rZoom, LOCAL bRendVisibleSiNecessaire=vrai)
+         // Vérifie si la valeur a changé
+         soit sNouveauLibelleZoom = ChaîneConstruit(<§R11eab9cc1614bbac¤fr-FR¤%1x¤en-GB¤¤es-ES¤§>, Arrondi(rZoom,1))
+         // Si la valeur a changé, il faut afficher le zoom
+         si bRendVisibleSiNecessaire _et_ sNouveauLibelleZoom=MonChamp..Libellé ALORS
+         	bRendVisibleSiNecessaire=Faux
+         FIN
+         // Met à jour le libellé
+         MonChamp..Libellé=sNouveauLibelleZoom
+         // si le libellé était invisible et que l'on doit le rendre visible, on le fait immediatement
+         si bRendVisibleSiNecessaire alors
+         	MonChamp..VisibleAvecAnimation=vrai
+         	si gnTimerInvisible<>0 alors 
+         		FinTimerSys(gnTimerInvisible)
+         	FIN
+         	gnTimerInvisible=TimerSys(MasqueAprèsDélai, 1s)
+         FIN
+         
+         // Masque le champ après un certain délai si aucun autre zoom a été effectué
+         procédure interne MasqueAprèsDélai()
+         	FinTimerSys(gnTimerInvisible)
+         	gnTimerInvisible=0
+         	MonChamp..VisibleAvecAnimation=Faux
+         fin
+        type : 458752
+     procedure_templates : []
+     property_templates : []
+  -
+    name : LIB_Fond
+    identifier : 0x2130f34b0221f28b
+    internal_properties : CAAAAAgAAAAPnXAzPemvA5yoc8p2oO4BqwYiBjfMzF2foaotBhDpVoMb2bEkJa/WRxqkhv1Z6HJ2hl0VHHeNO/R69JN/6xUlys0STwIlcci3tR5jI/LpiPu0kOvclN25cPMAbsPFnXUDJGXIwqJyb3STpKI5nFkvNgvW0brDEDyW+dm8ZxgWFJjdWbRtGfQgCXam7YDzwyndQGZH3THIqZokc25REjnr/0PIOsivbT9LLb1/nHTkJseIQRRzFMXmu7/3Frve+JzPv+sWuYVKENORnnMRH6ZiEcfOX20w0UAGUmVyghZnSzqunN59Bzc/FYBLnFM8t+83F7UO+lVUPbwnAhFaY2/bjl/ucelc0Es6CJgloS1Zx3zv7djhZUHF/LxcGCndOyO1W+T0if52I4VScIVdKfaXlhQyTTDeQARCDlPC/fCpqO2X8T0eSRMBP7vUYypAgbfB1xMih4llDsJZZIKHythusX3UIIP85J2IZQPOT7GN1e2pSeO4I0dMAeZY+wsdWwGEV6rAcH7LUOj6D2/NNNjM+BNsW6DXlc3Glm38hDdSjOXxirM+vSq43jEKWaNmBFUqgoXFz3zu4uUutVZnWOnFEU7eVI1Ftp81OzbvDvp2kHhi+nw9kEDGoE9IvIbwRdTiBkex1smdfZWn106m/TKkJWkAwb5K2xel5Zn2LQOge5zHTGNN94z3/nC0+BixkLxdtPQtdwgaA4dMkwfQ2mffHysTZHlyGznHCM1lHW7E/N7EgHrG+5vgZHb1FGhS+TWiqZIrjd85+7iKtGE5qU066w==
+    properties :
+     width : 360
+     height : 360
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Fermer
+    identifier : 0x2130f7b502ac305c
+    internal_properties : CAAAAAgAAAA28kHuQpVSlIJJjGKrEXYUndysPwfHSbU29DOarvaeugBo/s29WKTWjpDhYGxSEYJZrA0/EvSEGbvQPEljOCmAiRSTpFAtvcgDTjf+2rzO2MF1EyNLSspvIjqxIeZKViqbb/fSXy9YxjkG1McxSI07i4CemjZoCbTffNTyXsFoKsuDhCEhUxxzcqGnSwZl07AV8Iu81gZiyYauLR7mClMzJtozjeneD6EveXQDQ6wwKS5GPXyZH9UK0XbuFHOb4ZR4byMABRYWv+oq+5R5fM7DLSBj3McPHKu3cu0y3HmFyRqsQVgEv1I0ehjkNXTa0DHMv5hEt3YocKFnbW3yyHVGGlNNkuw0fJGWLiH3YRIBxTFx2qOQ0+Hw8MTv+tk1TfxqQyafARjMQkwc+LsLZBWHbpd88+/8ZZ4lxp+KMdzmYneVArJhw+uOaQdJ1e4YVIX2aQ+ilfwHP+h/vIQFwhdTHFy6H6tbjxJXi3aGe9v9xpLASbIuG95yIL7HcBiOtjZzZ9BnSoy4qCX1S/4UkF/lifuVgvfHWonBYiNPs1D6aqFE5ipISbRp0kzrjyd8IBcNihwh2mRokDNkm0IAuWDYL/x04m5nIfsG39c+nYx2fYEDooYjmZXu25kUkw9PqFoLIdCt5mxz2g90h/CSJ4XMlhs+7XDPTBdymtz1wa7PHnlgw8/C6YX6sEgF2BfYDP/zmMHdJqpsp1jkgmutz2U2ENW8F+QEeCdJJKgOuEBs+QACpXEY8nurzBTMi4vqdu4LiUvsPnhg4vWW9SdOBfmcn8cFnYSNR+3O6VNWbWwNH2EVlNtVKW1XHpYA1aUrUR73lola2LUPkzbo9olGROkn37FA5xszokvTbNigHW6adYPWM7P4/Z0yVpbd2oAe9xO9FhBsfjrqmqIK/yHhEsankRx5UUIQTfOb13xMnvmySGINfMMwDriNlRWeZagFnyaC71uWYbP2bx3/Uw20LHYuEgAkmT3LOJqFh+Rg6FRhgMqAm/GOuLBHRaqch3gShXE7eOBoesm8HxPKvQ4IqjdU76vH8vUPO1qpZwTJisABTmBJfuAz7/NS1TTS9mpmwnQXb8dMzMkXq/YaQFuNF8JQKkrU3QAaoYyoZgFEqXO4ICXWVOBxUrWV4eY6kRDYcTez16IZrcg8vAxeJ8PfRJX8TdAffkPpjTuoBWZQGH92j4yd+r/GKeT+EdSO07rHRnnQpqGR2o5ql+buDSQ38KnyAt8AKFV1zQARqu1DOgJvpE6YCK2BQ/dAPF1SPpEtYf6bt1aMZ7Pou02hNwPiBCrnWe10ONs+C3VzuZdpt68t6azA2hReU964U8/V5ZLWvkYKUWrelv+j2EQcc0HQLbsJ1Cydg2IV89wXiAZ9gG02ceWsEYgjZ6+LVuVm30Q/JWE3Ab7rKfNG25+sCvbZqn+WHxoctyacD1R3AE6H1ivxH6amEh/4RVMg47X7joo8+COWyaNeFQTrgF7H0y5GWXBE3hDqjCpdDADvNGGC9ubQzq7qQU3uHo4iLC+Nhhd3qZJJlYwN2929YKD+5W/j0mDqhMRa1JTwop5g2GHT4q8/w26fRIKCmjl+fX30gTv3drKqTNEgOBCRYN/q9n+hFPG+zgpFLGYq3SzTOGnIQFGKJW3W7nspJZ6aSBM3jShmD4LRVG4dMyq+hdBSTJu3jy0pGkuim1fTPARjRU7k7ayaKrTvbYHtKqK1la8F0JH696WeVf4ZpJ1gZL2d7jIc7hedIyc=
+    properties :
+     x : 32
+     y : 32
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         ferme
+        type : 18
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAAB0g8h34YWxHH+5tJr4P9tx4TAF7X/PAOPAniBhFX4FvlgpZJjXikmrST28fY5V97mjAUa00P9lf2SI/cIPghVNvdE/y3XFJMmYdjE0VElHDctopldWPGkChPP3hNVz7tRyCJpIS3cnWgqFJonRyGhTt+Lb/E6WACgL9P9vvXMBzi4cwqE2Ool7J2lSx/kHBmFYGY4sCGA33SjOJq6d0asVut0Z9JqRLd5uVP6MWGJXj29AVBMbZCDolvmPuiI09wtV+pguVHv1Q23V2oWqcw8mEZLe1mpks9ECPBHHOAqagznIoCpRGPhDKiD1ruXpdn6p41cNUre/2Wqgk0hxuZ3tDGj0no3XbD58rM0jyUjay/PFnrxu0HNb95QlF0GYlmJQOxHsQYt17O8y2kmJae1XKxNGlXGDBJyvE/y0HwaNtK/DneQfjsMDJmGgqT4REaN0Mf4ZzSOBhgAs1k9fA5esVT479hm4IToFoE+goX32nWsCdFGwv2rVXiCEogOGRUKQ1SEJKO4oXwA61HxezRad3nYpWEgQBMmP3zCE3WYvNvbu5vwwU49aGi/ExEDjH7ZiHE/2TfWUPorh9t2PGdWeCMW3koX2mbDfZ63+RtWQz0+y0JYQ5alfx48sii0JO2uM+CDz1LSD/mPtIu4oYMZkKuDbbbd
+  options : []
+ languages :
+  - fr-FR
+  - en-GB
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre(LOCAL bAutoriseVidéo = vrai)
+      
+      // Initialise le plan initial à afficher
+      CAM_Capture..Caméra=camCaméraDorsale
+      CAM_Capture..Zoom=1
+      CAM_Capture..Flash=camFlashAuto
+      CAM_Capture..Torche=camTorcheOff
+      mafenetre..Plan=PLAN_Capture_Photo
+      
+      // Affiche l'image de bascule vers le mode vidéo, ou masque l'image si l'enregistrement de vidéo est interdit
+      IMG_ModeVidéo..Visible = bAutoriseVidéo
+      
+      // Identifiant du timer qui appelle périodiquement SurTempsEcoulé
+      gnTimerVidéoTempsEcoulé est un entier = -1
+      
+      // Chemin de l'image/video qui sera générée
+      gsChemin est une chaîne
+   -
+     code : |1+
+      // Initialise l'UI au 1er affichage
+      // Note : les différents éléments de l'UI ont automatiquement ajouté des procédures internes notifiées lors de cet appel à DemandeMiseAJourUI()
+      DemandeMiseAJourUI()
+     type : 34
+   -
+     code : |1+
+      // Calcul du temps écoulé dans un enregistrement vidéo
+      dhDébutEnregistrement est une DateHeure
+      
+      // Formate le temps écoulé si on est en cours d'enregistrement d'une vidéo
+      si MaFenetre..Plan = PLAN_Enregistrement_en_cours ALORS
+      	si gnTimerVidéoTempsEcoulé = -1 ALORS		
+      	 	// Formate la durée écoulée à chaque appel du timer
+      	 	gnTimerVidéoTempsEcoulé = TimerSys(SurTempsEcoulé,250ms)
+      	 	procédure interne SurTempsEcoulé
+      	 		dhMaintenant est une dateheure
+      	 		duréeEcoulée est une durée = dhMaintenant - dhDébutEnregistrement		
+      	 		LIB_TempsEcoulé = DuréeVersChaîne(duréeEcoulée,"HH:MM:SS")
+      	 	FIN
+      	 	// 1er appel pour initialiser le temps écoulé
+      	 	SurTempsEcoulé()
+      	FIN	
+      // Arrête le calcul du temps écoulé
+      sinon si gnTimerVidéoTempsEcoulé>-1
+      	FinTimerSys(gnTimerVidéoTempsEcoulé)
+      	gnTimerVidéoTempsEcoulé = -1
+      FIN
+      
+      // Si la torche est allumée et que l'on quitte l'enregistrement vidéo, on doit éteindre la torche
+      Si CAM_Capture..Torche=camTorcheOn _et_ MaFenêtre..Plan<>PLAN_Capture_Vidéo _et_ MaFenêtre..Plan<>PLAN_Enregistrement_en_cours  alors
+      	CAM_Capture..Torche=camTorcheOff
+      FIN
+      
+     type : 234
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      // Éteint la torche en fermeture de fenêtre
+      CAM_Capture..Torche=camTorcheOff
+      
+      // Renvoie à la fenêtre appelante le chemin de l'image ou de la vidéo capturée 
+      renvoyer gsChemin
+     type : 2
+  procedures :
+   -
+     name : PrendrePhoto
+     procedure_id : 1207932241751891390
+     type_code : 14
+     code : |1-
+      // Prend une photo à partir du champ caméra
+      procédure PrendrePhoto()
+      
+      cameraphoto(CAM_Capture, SurCapturePhoto)
+      procédure interne SurCapturePhoto(bOK, sCheminPhoto)
+      	si pas bOK ALORS
+      		ToastAffiche(<§Rff00009b8fac5d7f¤fr-FR¤Erreur rencontrée lors de la prise de photo.¤en-GB¤¤es-ES¤§> + [RC] + Erreurinfo())
+      		renvoyer faux
+      	FIN
+      	// Mémorise le chemin de la photo prise
+      	gsChemin = sCheminPhoto
+      	IMG_Aperçu=sCheminPhoto
+      	MaFenetre..Plan = PLAN_Aperçu_de_photo
+      	// Met à jour l'affichage
+      	DemandeMiseAJourUI()
+      	
+      	renvoyer vrai
+      FIN
+      
+      // Note: ici il est possible de personnaliser l'affichage pendant la capture de photo en cours
+     type : 458752
+   -
+     name : DémarrerEnregistrementVidéo
+     procedure_id : 1207937752195167222
+     type_code : 14
+     code : |1-
+      procédure DémarrerEnregistrementVidéo()
+      
+      // Démarre l'enregistrement d'une vidéo à partir du champ caméra
+      CaméraVidéoDémarre(CAM_Capture,SurFinEnregistrementVidéo)
+      
+      PROCÉDURE INTERNE SurFinEnregistrementVidéo(bOK, sCheminVidéo)
+      	SI PAS bOK ALORS
+      		ToastAffiche(<§Rff00019b8fae5d7f¤fr-FR¤Erreur rencontrée lors de l'enregistrement de la vidéo.¤en-GB¤¤es-ES¤§> + [RC] + Erreurinfo())
+      		RENVOYER Faux
+      	FIN
+      	// Mémorise le chemin de la vidéo prise
+      	gsChemin	= sCheminVidéo
+      	MM_Aperçu=gsChemin
+      	MaFenetre..Plan	= PLAN_Aperçu_de_vidéo
+      	// Met à jour l'affichage
+      	DemandeMiseAJourUI()
+      	RENVOYER Vrai
+      FIN
+      
+      // Affiche l'enregistrement en cours
+      MaFenetre..Plan = PLAN_Enregistrement_en_cours
+      DemandeMiseAJourUI()
+     type : 458752
+   -
+     name : ModifieZoom
+     procedure_id : 1220839888340823763
+     type_code : 14
+     code : |1+
+      procédure ModifieZoom(rValeurZoomBouton)
+      
+      // Mise à jour de l'UI lors d'un zoom
+      si CAM_Capture..Zoom<>rValeurZoomBouton ALORS
+      	CAM_Capture..Zoom=rValeurZoomBouton	
+      FIN
+      
+      LIB_ZOOM.FormateLibelléZoom(CAM_Capture..Zoom)
+     type : 458752
+   -
+     name : RetourHaptique
+     procedure_id : 1238309045420821116
+     type_code : 14
+     code : |1-
+      procédure RetourHaptique()
+      
+      // Permet d'indiquer à l'utilisateur la détection d'action par une légère vibration
+      <COMPILE SI TypeConfiguration=Android>
+      	VibrationDéclenche(10ms)
+      <FIN> 
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x10c3253b43f2e76e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Erreur rencontrée lors de la prise de photo.
+      en-GB : Error taking the photo.
+     index : 0
+   -
+     text :
+      fr-FR : Erreur rencontrée lors de l'enregistrement de la vidéo.
+      en-GB : Error recording the video.
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
